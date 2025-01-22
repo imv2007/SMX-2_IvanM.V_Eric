@@ -1,3 +1,3 @@
-# SMX-2_IvanM.V_Eric
+PROYECTO SINTESI IVAN Y ERIC
 Este es nuestro proyecto
 
