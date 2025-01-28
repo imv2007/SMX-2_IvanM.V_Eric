@@ -33,4 +33,9 @@ _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pá
 |Organización, GitHub, trello, Aprender contents anteriormente especificados estar pendiente de trello y GitHub cuando este ausente (cuestiones médicas)| GitHub, trello, ayudar a poner al día a Iván cuando este ausente (cuestiones medicas)|
 
 
+# El diagrama de la red 
+
+
+
+
 
