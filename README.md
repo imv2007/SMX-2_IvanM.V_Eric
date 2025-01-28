@@ -25,5 +25,10 @@ _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pá
 
 -Aprender pi hole
 
+|           Iván                  |                 Eric                 |
+| ------------------------------- | -------------------------------------|
+| Creación y gestión de sistemas  | Diseño web y gestor de bases de datos|
+|Organización, GitHub, trello, Aprender contents anteriormente especificados estar pendiente de trello y GitHub cuando este ausente (cuestiones médicas)| GitHub, trello, ayudar a poner al día a Iván cuando este ausente (cuestiones medicas)|
+
 
 
