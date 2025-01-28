@@ -25,7 +25,7 @@ _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pá
 
 -Aprender pi hole
 
-### Asignación de roles y responsabilidades del equipo.
+### Asignación de roles y responsabilidades del equipo ⭐
 
 |           Iván                  |                 Eric                 |
 | ------------------------------- | -------------------------------------|
