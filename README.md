@@ -1,4 +1,4 @@
-PROYECTO SINTESI IVAN Y ERIC
+ PROYECTO SINTESI IVAN Y ERIC
 
 ![image](https://github.com/user-attachments/assets/95c53d50-c4dd-42cc-9314-8967deddd513)
 
@@ -8,13 +8,22 @@ _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pá
 
 ### Requisitos 📋
 -Especificar listado de tareas. 
+
 -Aprender HTML, css,  
+
 -Aprender JavaScript 
+
 -Aprender PHP, MYSQL 
+
 -Aprender XAMPP 
+
 -Configurar los servers 
+
 -Hacer la memoria cada día 
+
 -Aprender todo lo relacionado con Carmen 
+
 -Aprender pi hole
+
 
 
