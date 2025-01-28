@@ -35,6 +35,8 @@ _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pá
 
 # Diagrama de la red 
 _El diagrama de red lo que hay es: un rúter, un firewall (Sophos), un switch, y varios pc (máquinas virtuales con servicios DNS, DHCP, Truenas, PHP y MySQL) donde haremos todo el proyecto, y las maquinas virtuales las haremos con Ubuntu (y Pi-Hole) ya que es lo que mejor se nos da._
+![image](https://github.com/user-attachments/assets/9900942c-db2d-42ec-8ad5-d12eec16536f)
+
 
 
 
