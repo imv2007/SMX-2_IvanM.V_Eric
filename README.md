@@ -6,7 +6,7 @@ PROYECTO SINTESI IVAN Y ERIC
 
 _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia página web, poder crear nuestra propia marca de ropa y cumplir con las expectativas de la gente que visualice nuestra idea_
 
-### Pre-requisitos 📋
+### Requisitos 📋
 
 Especificar listado de tareas. 
 
