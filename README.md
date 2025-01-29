@@ -45,7 +45,9 @@ Lo que hemos hecho ha sido organizar nuestras tareas, especificar nuestros objet
 
 hoy hemos acabado la organización del proyecto y hemos hecho el diagrama de Gantt de el time-lapse del proyecto y que tenemos que hacer, después hemos empezado a documentar en GitHub toda la organización del proyecto de síntesis y sus distintos apartados, y por ultimo, hoy hemos corregido algunos errores de escritura que tenia la organización del proyecto.
 
+29/01/25
 
+Hoy hemos terminado de organizar todo el contenido del word al github y completar todos los apartados de nuestro esquema de proyecto
 
 
 
