@@ -3,6 +3,9 @@
 
 ![image](https://github.com/user-attachments/assets/95c53d50-c4dd-42cc-9314-8967deddd513)
 
+
+
+
 # Memoria del proyecto de síntesis 2 🔝
 
 Nine studios (marca de ropa personal con bases de datos MYSQL y pagina web dinámica)
@@ -42,6 +45,13 @@ Lo que hemos hecho ha sido organizar nuestras tareas, especificar nuestros objet
 
 hoy hemos acabado la organización del proyecto y hemos hecho el diagrama de Gantt de el time-lapse del proyecto y que tenemos que hacer, después hemos empezado a documentar en GitHub toda la organización del proyecto de síntesis y sus distintos apartados, y por ultimo, hoy hemos corregido algunos errores de escritura que tenia la organización del proyecto.
 
+
+
+
+
+
+
+
 # Organización proyecto de síntesis 2 :trollface: 
 
 _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia página web, poder crear nuestra propia marca de ropa y cumplir con las expectativas de la gente que visualice nuestra idea_
@@ -65,6 +75,13 @@ _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pá
 
 -Aprender pi hole
 
+
+
+
+
+
+
+
 ### Asignación de roles y responsabilidades del equipo ⭐
 
 |           Iván                  |                 Eric                 |
@@ -76,6 +93,11 @@ _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pá
 # Diagrama de la red:
 _El diagrama de red lo que hay es: un rúter, un firewall (Sophos), un switch, y varios pc (máquinas virtuales con servicios DNS, DHCP, Truenas, PHP y MySQL) donde haremos todo el proyecto, y las maquinas virtuales las haremos con Ubuntu (y Pi-Hole) ya que es lo que mejor se nos da._
 ![image](https://github.com/user-attachments/assets/9900942c-db2d-42ec-8ad5-d12eec16536f)
+
+
+
+
+
 
 
 # El hardware a utilizar:
@@ -110,6 +132,9 @@ Maquinas virtuales: Ubuntu
 - 1 ordenador (casa Eric:)
 
 
+
+
+
   # Los sistemas operativos a utilizar:
   
   
@@ -118,6 +143,9 @@ Linux: Utilizaremos Linux como servidores DNS y DHCP porque pensamos que se nos 
 Windows: Utilizaremos Windows como sistema operativo Core de nuestro proyecto porque ahí haremos las máquinas virtuales de Linux, el truenas y todo lo que tiene que ver con la web
 
 Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensamos que seria buena idea tener guardada nuestra información de forma segura, sin posibilidad de perderla.
+
+
+
 
 
 
