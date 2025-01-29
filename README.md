@@ -3,6 +3,8 @@
 
 ![image](https://github.com/user-attachments/assets/95c53d50-c4dd-42cc-9314-8967deddd513)
 
+Memoria del proyecto de síntesis 2 🔝
+
 # Organización proyecto de síntesis 2 :trollface: 
 
 _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia página web, poder crear nuestra propia marca de ropa y cumplir con las expectativas de la gente que visualice nuestra idea_
