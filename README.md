@@ -73,12 +73,12 @@ _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pá
 |Organización, GitHub, trello, Aprender contents anteriormente especificados estar pendiente de trello y GitHub cuando este ausente (cuestiones médicas)| GitHub, trello, ayudar a poner al día a Iván cuando este ausente (cuestiones medicas)|
 
 
-# Diagrama de la red 
+# Diagrama de la red:
 _El diagrama de red lo que hay es: un rúter, un firewall (Sophos), un switch, y varios pc (máquinas virtuales con servicios DNS, DHCP, Truenas, PHP y MySQL) donde haremos todo el proyecto, y las maquinas virtuales las haremos con Ubuntu (y Pi-Hole) ya que es lo que mejor se nos da._
 ![image](https://github.com/user-attachments/assets/9900942c-db2d-42ec-8ad5-d12eec16536f)
 
 
-# El hardware a utilizar
+# El hardware a utilizar:
 
 -	2 ordenadores de clase
 
@@ -108,6 +108,24 @@ Maquinas virtuales: Ubuntu
 
 
 - 1 ordenador (casa Eric:)
+
+
+  # Los sistemas operativos a utilizar:
+  
+  
+Linux: Utilizaremos Linux como servidores DNS y DHCP porque pensamos que se nos da mejor y terminaremos mas rápido.
+
+Windows: Utilizaremos Windows como sistema operativo Core de nuestro proyecto porque ahí haremos las máquinas virtuales de Linux, el truenas y todo lo que tiene que ver con la web
+
+Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensamos que seria buena idea tener guardada nuestra información de forma segura, sin posibilidad de perderla.
+
+
+
+# Establecer un diagrama de Gantt con los objetivos y resultados a alcanzar:
+
+
+![image](https://github.com/user-attachments/assets/a8f3e368-dafa-439d-a2c6-27c5111c4191)
+
 
 
 
