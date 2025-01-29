@@ -78,6 +78,26 @@ _El diagrama de red lo que hay es: un rúter, un firewall (Sophos), un switch, y
 ![image](https://github.com/user-attachments/assets/9900942c-db2d-42ec-8ad5-d12eec16536f)
 
 
+# El hardware a utilizar
+
+-	2 ordenadores de clase 
+Intel Core i7 11700
+16 GB RAM ddr4
+UHD graphics 750
+So: Windows
+Máquinas virtuales: Ubuntu
+
+-	1 ordenador (casa Iván:)
+Intel Core i5 9400
+16 GB RAM ddr4
+Nvidia GeForce GTX 960
+So: Windows
+Maquinas virtuales: Ubuntu
+
+- 1 ordenador (casa Eric:)
+
+
+
 
 
 
