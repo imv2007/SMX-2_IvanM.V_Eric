@@ -54,7 +54,7 @@ Hoy hemos terminado de organizar todo el contenido del word al github y completa
 
 
 
-# Organización proyecto de síntesis 2 :trollface: 
+# Organización proyecto de síntesis 2  
 
 _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia página web, poder crear nuestra propia marca de ropa y cumplir con las expectativas de la gente que visualice nuestra idea_
 
@@ -98,7 +98,7 @@ _El diagrama de red lo que hay es: un rúter, un firewall (Sophos), un switch, y
 
 
 
-Las tecnologías a implementar. 
+# Las tecnologías a implementar. 
 
 Las tecnologías por utilizar en nuestro proyecto serían: Ubuntu, Truenas, Pi-Hole, PHP, MySQL. Podemos justificar el uso de estas mismas porque:
 -	Ubuntu:  Ubuntu es un sistema operativo que de funciona como Windows , es gratuito y esta basado en Linux , es interesante porque es fácil de usar y seguro además de tener muchas herramientas para programar.
