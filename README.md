@@ -33,7 +33,7 @@ Los recursos algunos de ellos los incluiremos en el trello o en la parte final d
 
  https://www.php.net/manual/es/intro-whatis.php
 
-des de el 13/01/25 hasta 21/01/25 ✅
+## Des de el 13/01/25 hasta 21/01/25 ✅
 
 Hemos estado haciendo las ideas de nuestro proyecto y las hemos plasmado en una presentación introductoria, también hemos hecho nuestro esquema de red y de proyecto en general, esto nos ha servido para organizarnos para saber por donde tirar en el proyecto, después hemos pensado en usar Pi-Hole como servidor dns y dhcp, pero eso se vera en el futuro a ver como sale.
 
@@ -92,13 +92,13 @@ _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pá
 |Organización, GitHub, trello, Aprender contents anteriormente especificados estar pendiente de trello y GitHub cuando este ausente (cuestiones médicas)| GitHub, trello, ayudar a poner al día a Iván cuando este ausente (cuestiones medicas)|
 
 
-# Diagrama de la red:
+## Diagrama de la red:
 _El diagrama de red lo que hay es: un rúter, un firewall (Sophos), un switch, y varios pc (máquinas virtuales con servicios DNS, DHCP, Truenas, PHP y MySQL) donde haremos todo el proyecto, y las maquinas virtuales las haremos con Ubuntu (y Pi-Hole) ya que es lo que mejor se nos da._
 ![image](https://github.com/user-attachments/assets/9900942c-db2d-42ec-8ad5-d12eec16536f)
 
 
 
-# Las tecnologías a implementar. 
+## Las tecnologías a implementar. 
 
 Las tecnologías por utilizar en nuestro proyecto serían: Ubuntu, Truenas, Pi-Hole, PHP, MySQL. Podemos justificar el uso de estas mismas porque:
 -	Ubuntu:  Ubuntu es un sistema operativo que de funciona como Windows , es gratuito y esta basado en Linux , es interesante porque es fácil de usar y seguro además de tener muchas herramientas para programar.
@@ -115,7 +115,7 @@ Truenas es útil para poder hacer copias de seguridad de nuestra información co
 
 
 
-# El hardware a utilizar:
+## El hardware a utilizar:
 
 -	2 ordenadores de clase
 
@@ -162,7 +162,7 @@ Maquinas virtuales: Ubuntu
 
 
 
-  # Los sistemas operativos a utilizar:
+  ## Los sistemas operativos a utilizar:
   
   
 Linux: Utilizaremos Linux como servidores DNS y DHCP porque pensamos que se nos da mejor y terminaremos mas rápido.
@@ -176,7 +176,7 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 
 
 
-# Establecer un diagrama de Gantt con los objetivos y resultados a alcanzar:
+## Establecer un diagrama de Gantt con los objetivos y resultados a alcanzar:
 
 
 ![image](https://github.com/user-attachments/assets/a8f3e368-dafa-439d-a2c6-27c5111c4191)
