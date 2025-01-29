@@ -54,7 +54,7 @@ Hoy hemos terminado de organizar todo el contenido del word al github y completa
 
 
 
-# Organización proyecto de síntesis 2  
+# Organización proyecto de síntesis 2 ⭐  
 
 _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia página web, poder crear nuestra propia marca de ropa y cumplir con las expectativas de la gente que visualice nuestra idea_
 
