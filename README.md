@@ -10,7 +10,7 @@
 
 Nine studios (marca de ropa personal con bases de datos MYSQL y pagina web dinámica)
 
-Breifing:
+ ### Breifing:
 
  Hemos decidido hacer una marca de ropa personal porque pensamos que con los conocimientos que nos brindan los profesores de el ciclo, podremos llevar a cabo esta idea, también ellos pueden ayudarnos para que esta idea sea posible. 
 
@@ -92,13 +92,13 @@ _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pá
 |Organización, GitHub, trello, Aprender contents anteriormente especificados estar pendiente de trello y GitHub cuando este ausente (cuestiones médicas)| GitHub, trello, ayudar a poner al día a Iván cuando este ausente (cuestiones medicas)|
 
 
-## Diagrama de la red:
+## Diagrama de la red: 📡
 _El diagrama de red lo que hay es: un rúter, un firewall (Sophos), un switch, y varios pc (máquinas virtuales con servicios DNS, DHCP, Truenas, PHP y MySQL) donde haremos todo el proyecto, y las maquinas virtuales las haremos con Ubuntu (y Pi-Hole) ya que es lo que mejor se nos da._
 ![image](https://github.com/user-attachments/assets/9900942c-db2d-42ec-8ad5-d12eec16536f)
 
 
 
-## Las tecnologías a implementar. 
+## Las tecnologías a implementar. 📲
 
 Las tecnologías por utilizar en nuestro proyecto serían: Ubuntu, Truenas, Pi-Hole, PHP, MySQL. Podemos justificar el uso de estas mismas porque:
 -	Ubuntu:  Ubuntu es un sistema operativo que de funciona como Windows , es gratuito y esta basado en Linux , es interesante porque es fácil de usar y seguro además de tener muchas herramientas para programar.
@@ -115,7 +115,7 @@ Truenas es útil para poder hacer copias de seguridad de nuestra información co
 
 
 
-## El hardware a utilizar:
+## El hardware a utilizar: 🎮
 
 -	2 ordenadores de clase
 
@@ -176,7 +176,7 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 
 
 
-## Establecer un diagrama de Gantt con los objetivos y resultados a alcanzar:
+## diagrama de Gantt Nine studios :
 
 
 ![image](https://github.com/user-attachments/assets/a8f3e368-dafa-439d-a2c6-27c5111c4191)
