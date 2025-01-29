@@ -130,7 +130,19 @@ Maquinas virtuales: Ubuntu
 
 
 - 1 ordenador (casa Eric:)
+  
 
+Procesador i5 13400F
+
+32 GB RAM 
+
+500GB SSD
+
+Nvidia GeForce GTX 1060 
+
+So: Windows 10
+
+Maquinas virtuales: Ubuntu
 
 
 
