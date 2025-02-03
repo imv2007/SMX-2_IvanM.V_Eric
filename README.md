@@ -178,6 +178,9 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 # Arquitectura del sistema :
 
 
-
-
+| First Header  | Second Header | First Header  | Second Header |
+| ------------- | ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | xd
+| Content Cell  | Content Cell  | xd
+                                
 
