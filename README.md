@@ -37,21 +37,9 @@ Los recursos algunos de ellos los incluiremos en el trello o en la parte final d
 
 Hemos estado haciendo las ideas de nuestro proyecto y las hemos plasmado en una presentación introductoria, también hemos hecho nuestro esquema de red y de proyecto en general, esto nos ha servido para organizarnos para saber por donde tirar en el proyecto, después hemos pensado en usar Pi-Hole como servidor dns y dhcp, pero eso se vera en el futuro a ver como sale.
 
-22/01/25
+## Des de el 22/01/25 hasta 29/01/25
 
-Lo que hemos hecho ha sido organizar nuestras tareas, especificar nuestros objetivos y funcionalidades
-
-28/01/25
-
-hoy hemos acabado la organización del proyecto y hemos hecho el diagrama de Gantt de el time-lapse del proyecto y que tenemos que hacer, después hemos empezado a documentar en GitHub toda la organización del proyecto de síntesis y sus distintos apartados, y por ultimo, hoy hemos corregido algunos errores de escritura que tenia la organización del proyecto.
-
-29/01/25
-
-Hoy hemos terminado de organizar todo el contenido del word al github y completar todos los apartados de nuestro esquema de proyecto
-
-
-
-
+Lo que hemos hecho ha sido organizar nuestras tareas, especificar nuestros objetivos, especificar nuestras funcionalidades, organizar el proyecto a nivel tanto de recursos de hardware como de software, hacer un diagrama de gantt sobre los tiempos que necesitamos para hacer nuestro proyecto y documentarlo en github
 
 
 # Organización proyecto de síntesis 2 ⭐  
