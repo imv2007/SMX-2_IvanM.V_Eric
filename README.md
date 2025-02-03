@@ -41,6 +41,9 @@ Hemos estado haciendo las ideas de nuestro proyecto y las hemos plasmado en una 
 
 Lo que hemos hecho ha sido organizar nuestras tareas, especificar nuestros objetivos, especificar nuestras funcionalidades, organizar el proyecto a nivel tanto de recursos de hardware como de software, hacer un diagrama de gantt sobre los tiempos que necesitamos para hacer nuestro proyecto y documentarlo en github
 
+### 03/02/25 
+
+Hoy lo que hemos hecho ha sido crear nuestra arquitectura de sistema, aun no se ha acabado pero tendremos mas dias para hacerlo
 
 # Organización proyecto de síntesis 2 ⭐  
 
@@ -74,7 +77,7 @@ _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pá
 
 ### Asignación de roles y responsabilidades del equipo ⭐
 
-|           Iván                  |                 Eric                 |
+|           Iván                  |                 Eric                 | 
 | ------------------------------- | -------------------------------------|
 | Creación y gestión de sistemas  | Diseño web y gestor de bases de datos|
 |Organización, GitHub, trello, Aprender contents anteriormente especificados estar pendiente de trello y GitHub cuando este ausente (cuestiones médicas)| GitHub, trello, ayudar a poner al día a Iván cuando este ausente (cuestiones medicas)|
@@ -171,6 +174,8 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 
 
 
+
+# Arquitectura del sistema :
 
 
 
