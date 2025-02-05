@@ -11,7 +11,6 @@
 Nine studios (marca de ropa personal con bases de datos MYSQL y pagina web dinámica)
 
  ### Introduccion
-#### Briefing
  Hemos decidido hacer una marca de ropa personal porque pensamos que con los conocimientos que nos brindan los profesores de el ciclo, podremos llevar a cabo esta idea, también ellos pueden ayudarnos para que esta idea sea posible. 
 
 Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pagina web y poder crear nuestra propia marca de ropa. 
