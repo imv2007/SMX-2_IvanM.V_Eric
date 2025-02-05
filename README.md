@@ -135,7 +135,7 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 
 
 
-## diagrama de Gantt Nine studios 
+## Diagrama de Gantt Nine studios 
 
 
 ![image](https://github.com/user-attachments/assets/a8f3e368-dafa-439d-a2c6-27c5111c4191)
