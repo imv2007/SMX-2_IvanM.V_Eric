@@ -81,7 +81,7 @@ Truenas es útil para poder hacer copias de seguridad de nuestra información co
 
 
 
-### Asignación de roles y responsabilidades del equipo ⭐
+## Asignación de roles y responsabilidades del equipo ⭐
 
 |           Iván                  |                 Eric                 | 
 | ------------------------------- | -------------------------------------|
