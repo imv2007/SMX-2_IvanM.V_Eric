@@ -31,14 +31,6 @@ Aplicaciones web (HTML y CSS, JavaScript, PHP, MYSQL)
 
 Conocimientos extra (Pi hole). 
 
-#### Recursos extra
-_INFO_
-* [DHCP](https://www.redeszone.net/tutoriales/internet/que-es-protocolo-dhcp/) - EXPLICACION DHCP
-* [DNS](https://www.ibm.com/es-es/topics/dns-protocol) - EXPLICACION DNS
-* [PHP](https://www.php.net/manual/es/intro-whatis.php) - EXPLICACION PHP
-* [PI-HOLE](https://docs.pi-hole.net/main/basic-install) - EXPLICACION PI-HOLE
-* [MySQL](https://www.hostinger.es/tutoriales/que-es-mysql) - EXPLICACION MySQL
-* [HTML,CSS,JAVASCRIPT](https://dinahosting.com/blog/entendiendo-la-base-del-desarrollo-web-html-css-y-javascript/) - EXPLICACION DESARROLLO WEB
 
 
 
@@ -80,11 +72,13 @@ Truenas es útil para poder hacer copias de seguridad de nuestra información co
 
 -Aprender pi hole
 
-
-
-
-
-
+_WEB_
+* [DHCP](https://www.redeszone.net/tutoriales/internet/que-es-protocolo-dhcp/) - EXPLICACION DHCP
+* [DNS](https://www.ibm.com/es-es/topics/dns-protocol) - EXPLICACION DNS
+* [PHP](https://www.php.net/manual/es/intro-whatis.php) - EXPLICACION PHP
+* [PI-HOLE](https://docs.pi-hole.net/main/basic-install) - EXPLICACION PI-HOLE
+* [MySQL](https://www.hostinger.es/tutoriales/que-es-mysql) - EXPLICACION MySQL
+* [HTML,CSS,JAVASCRIPT](https://dinahosting.com/blog/entendiendo-la-base-del-desarrollo-web-html-css-y-javascript/) - EXPLICACION DESARROLLO WEB
 
 
 ### Asignación de roles y responsabilidades del equipo ⭐
