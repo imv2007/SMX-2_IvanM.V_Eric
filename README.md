@@ -124,7 +124,7 @@ So: Windows
 
 Máquinas virtuales: Ubuntu
 
-El uso de los ordenadores de clase es para poder virtualizar nuestro proyecto
+El uso de los ordenadores de clase es para poder virtualizar los servidores y guardar el contenido de la web
 
 -	1 ordenador (casa Iván:)
   
@@ -157,7 +157,7 @@ So: Windows 10
 
 Maquinas virtuales: Ubuntu
 
-
+El uso de los ordenadores de casa de los dos es por si no acabamos en clase los contenidos correspodientes en clase
 
 
   ## Los sistemas operativos a utilizar
