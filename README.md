@@ -30,6 +30,8 @@ Aplicaciones web (HTML y CSS, JavaScript, PHP, MYSQL)
 
 Conocimientos extra (Pi hole). 
 
+#### Recursos extra
+
 
  https://www.php.net/manual/es/intro-whatis.php
 
