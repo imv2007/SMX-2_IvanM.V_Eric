@@ -32,7 +32,11 @@ Aplicaciones web (HTML y CSS, JavaScript, PHP, MYSQL)
 Conocimientos extra (Pi hole). 
 
 #### Recursos extra
+_EXPLICACION DE PORTOCOLOS_
 
+* [](https://www.redeszone.net/tutoriales/internet/que-es-protocolo-dhcp/) - EXPLICACION DHCP
+* [](https://www.ibm.com/es-es/topics/dns-protocol) - EXPLICACION DNS
+* [](https://rockcontent.com/es/blog/php/) - EXPLICACION PHP
 
  https://www.php.net/manual/es/intro-whatis.php
 
