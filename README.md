@@ -102,9 +102,6 @@ En el diagrama de red lo que hay es un router conectado a firewall(sophos) y a u
 
 
 
-
-
-
 ## El hardware a utilizar 🎮
 
 
@@ -124,13 +121,11 @@ _El uso de los ordenadores de casa de los dos es por si no acabamos en clase los
   ## Los sistemas operativos a utilizar
   
   
-*Linux*: Utilizaremos Linux como servidores DNS y DHCP porque pensamos que se nos da mejor y terminaremos mas rápido.
+Linux: Utilizaremos Linux como servidores DNS y DHCP porque pensamos que se nos da mejor y terminaremos mas rápido.
 
-*Windows*: Utilizaremos Windows como sistema operativo Core de nuestro proyecto porque ahí haremos las máquinas virtuales de Linux, el truenas y todo lo que tiene que ver con la web
+Windows: Utilizaremos Windows como sistema operativo Core de nuestro proyecto porque ahí haremos las máquinas virtuales de Linux, el truenas y todo lo que tiene que ver con la web
 
-*Truenas*: Utilizaremos truenas como servidor de copias de seguridad, porque pensamos que seria buena idea tener guardada nuestra información de forma segura, sin posibilidad de perderla.
-
-
+Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensamos que seria buena idea tener guardada nuestra información de forma segura, sin posibilidad de perderla.
 
 
 
