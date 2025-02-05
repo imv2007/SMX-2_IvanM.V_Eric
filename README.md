@@ -144,19 +144,19 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 # Diario semanal
 
 
-## Desde el 13/01/25 hasta 21/01/25 ✅
+#### Desde el 13/01/25 hasta 21/01/25 ✅
 
 Hemos estado haciendo las ideas de nuestro proyecto y las hemos plasmado en una presentación introductoria, también hemos hecho nuestro esquema de red y de proyecto en general, esto nos ha servido para organizarnos para saber por donde tirar en el proyecto, después hemos pensado en usar Pi-Hole como servidor dns y dhcp, pero eso se vera en el futuro a ver como sale.
 
-## Desde el 22/01/25 hasta 29/01/25 ✅
+####  22/01/25 - 29/01/25 ✅
 
 Lo que hemos hecho ha sido organizar nuestras tareas, especificar nuestros objetivos, especificar nuestras funcionalidades, organizar el proyecto a nivel tanto de recursos de hardware como de software, hacer un diagrama de gantt sobre los tiempos que necesitamos para hacer nuestro proyecto y documentarlo en github
 
-### 03/02/25 
+#### 03/02/25 
 
 Hoy lo que hemos hecho ha sido crear nuestra arquitectura de sistema, aun no se ha acabado pero tendremos mas dias para hacerlo
 
-### 05/02/25
+#### 05/02/25
 
 Hoy lo que hemos hecho ha sido arreglar un poco el github para que los contenidos esten correctamente, empezar a hacer el server dns y dhcp y arreglar un poco el diagrama de la red
 
