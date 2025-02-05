@@ -114,52 +114,23 @@ En el diagrama de red lo que hay es un router conectado a firewall(sophos) y a u
 
 ## El hardware a utilizar 🎮
 
--	2 ordenadores de clase
 
-Intel Core i7 11700
 
-1 TB de Memoria SSD 
+|     (PC)      |   Componentes    | Caracteristicas       |
+| :---          |     :---:        |    ---:               |
+| 2 PC CLASE | Intel Core i7 11700, 1 TB de Memoria SSD, 16 GB RAM ddr4 UHD graphics 750 | So: Windows Máquinas virtuales: Ubuntu   |
+| PC Iván   | Intel Core i5 9400 500 GB de Memoria SSD 16 GB de Memoria RAM ddr4 Nvidia GeForce GTX 960         | So: Windows, Maquinas virtuales: Ubuntu        |
+| PC Eric | Procesador i5 13400F 32 GB de Memoria RAM 500GB Memoria SSD Nvidia GeForce GTX 1060       | So: Windows 10 Maquinas virtuales: Ubuntu      |
 
-16 GB RAM ddr4
 
-UHD graphics 750
 
-So: Windows
-
-Máquinas virtuales: Ubuntu
 
 El uso de los ordenadores de clase es para poder virtualizar los servidores y guardar el contenido de la web
 
--	1 ordenador (casa Iván:)
-  
-
-Intel Core i5 9400
-
-500 GB de Memoria SSD
-
-16 GB de Memoria RAM ddr4
-
-Nvidia GeForce GTX 960
-
-So: Windows
-
-Maquinas virtuales: Ubuntu
 
 
-- 1 ordenador (casa Eric:)
-  
 
-Procesador i5 13400F
 
-32 GB de Memoria RAM 
-
-500GB Memoria SSD
-
-Nvidia GeForce GTX 1060 
-
-So: Windows 10
-
-Maquinas virtuales: Ubuntu
 
 El uso de los ordenadores de casa de los dos es por si no acabamos en clase los contenidos correspodientes en clase
 
