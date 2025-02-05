@@ -10,11 +10,11 @@
 
 Nine studios (marca de ropa personal con bases de datos MYSQL y pagina web dinámica)
 
- ### Breifing:
-
+ ### Introduccion
+#### Briefing
  Hemos decidido hacer una marca de ropa personal porque pensamos que con los conocimientos que nos brindan los profesores de el ciclo, podremos llevar a cabo esta idea, también ellos pueden ayudarnos para que esta idea sea posible. 
 
-Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pagina web, poder crear nuestra propia marca de ropa y cumplir con las expectativas de la gente que visualice nuestra idea. 
+Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pagina web y poder crear nuestra propia marca de ropa. 
 
 El publico objetivo al que nos dirigimos, es a gente joven entre 14 años a 35 años, ya que nos queremos adaptar al mercado de la moda y actualizaros según los estándares de moda, tanto de la gente como de otras marcas que nos diferencian. 
 
@@ -23,27 +23,16 @@ Sistemas operativos en red (Maquinas virtuales linux...)
 
 Servicios de red (DNS y DHCP) 
 
-Seguridad informática (Truenas) 
+Seguridad informática (Truenas, Firewall, Nginx) 
 
 Aplicaciones web (HTML y CSS, JavaScript, PHP, MYSQL) 
 
 Conocimientos extra (Pi hole). 
 
-Los recursos algunos de ellos los incluiremos en el trello o en la parte final de la memoria de proyecto porque de momento no hemos investigado ni aprendido nada de los contenidos que daremos en el futuro relacionados con el proyecto (salvo truenas ni DNS ni DHCP)
 
  https://www.php.net/manual/es/intro-whatis.php
 
-## Des de el 13/01/25 hasta 21/01/25 ✅
-
-Hemos estado haciendo las ideas de nuestro proyecto y las hemos plasmado en una presentación introductoria, también hemos hecho nuestro esquema de red y de proyecto en general, esto nos ha servido para organizarnos para saber por donde tirar en el proyecto, después hemos pensado en usar Pi-Hole como servidor dns y dhcp, pero eso se vera en el futuro a ver como sale.
-
-## Des de el 22/01/25 hasta 29/01/25 ✅
-
-Lo que hemos hecho ha sido organizar nuestras tareas, especificar nuestros objetivos, especificar nuestras funcionalidades, organizar el proyecto a nivel tanto de recursos de hardware como de software, hacer un diagrama de gantt sobre los tiempos que necesitamos para hacer nuestro proyecto y documentarlo en github
-
-### 03/02/25 
-
-Hoy lo que hemos hecho ha sido crear nuestra arquitectura de sistema, aun no se ha acabado pero tendremos mas dias para hacerlo
+https://docs.pi-hole.net/main/basic-install
 
 # Organización proyecto de síntesis 2 ⭐  
 
@@ -90,7 +79,7 @@ _En el diagrama de red lo que hay es un router conectado a firewall(sophos) y a 
 
 
 
-## Las tecnologías a implementar. 📲
+## Las tecnologías a implementar 📲
 
 Las tecnologías por utilizar en nuestro proyecto serían: Ubuntu, Truenas, Pi-Hole, PHP, MySQL. Podemos justificar el uso de estas mismas porque:
 -	Ubuntu:  Ubuntu es un sistema operativo que de funciona como Windows , es gratuito y esta basado en Linux , es interesante porque es fácil de usar y seguro además de tener muchas herramientas para programar.
@@ -107,7 +96,7 @@ Truenas es útil para poder hacer copias de seguridad de nuestra información co
 
 
 
-## El hardware a utilizar: 🎮
+## El hardware a utilizar 🎮
 
 -	2 ordenadores de clase
 
@@ -154,7 +143,7 @@ Maquinas virtuales: Ubuntu
 
 
 
-  ## Los sistemas operativos a utilizar:
+  ## Los sistemas operativos a utilizar
   
   
 Linux: Utilizaremos Linux como servidores DNS y DHCP porque pensamos que se nos da mejor y terminaremos mas rápido.
@@ -168,20 +157,26 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 
 
 
-## diagrama de Gantt Nine studios :
+## diagrama de Gantt Nine studios 
 
 
 ![image](https://github.com/user-attachments/assets/a8f3e368-dafa-439d-a2c6-27c5111c4191)
 
 
+# Diario semanal
 
 
-# Arquitectura del sistema :
+## Des de el 13/01/25 hasta 21/01/25 ✅
 
+Hemos estado haciendo las ideas de nuestro proyecto y las hemos plasmado en una presentación introductoria, también hemos hecho nuestro esquema de red y de proyecto en general, esto nos ha servido para organizarnos para saber por donde tirar en el proyecto, después hemos pensado en usar Pi-Hole como servidor dns y dhcp, pero eso se vera en el futuro a ver como sale.
 
-| First Header  | Second Header | First Header  | Second Header |
-| ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+## Des de el 22/01/25 hasta 29/01/25 ✅
+
+Lo que hemos hecho ha sido organizar nuestras tareas, especificar nuestros objetivos, especificar nuestras funcionalidades, organizar el proyecto a nivel tanto de recursos de hardware como de software, hacer un diagrama de gantt sobre los tiempos que necesitamos para hacer nuestro proyecto y documentarlo en github
+
+### 03/02/25 
+
+Hoy lo que hemos hecho ha sido crear nuestra arquitectura de sistema, aun no se ha acabado pero tendremos mas dias para hacerlo
+
                                 
 
