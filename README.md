@@ -20,6 +20,7 @@ El publico objetivo al que nos dirigimos, es a gente joven entre 14 años a 35 a
 
 #### Modulos de referencia
 los módulos de referencia del ciclo que necesitaremos para este proyecto son: 
+
 Sistemas operativos en red (Maquinas virtuales linux...) 
 
 Servicios de red (DNS y DHCP) 
@@ -169,11 +170,11 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 # Diario semanal
 
 
-## Des de el 13/01/25 hasta 21/01/25 ✅
+## Desde el 13/01/25 hasta 21/01/25 ✅
 
 Hemos estado haciendo las ideas de nuestro proyecto y las hemos plasmado en una presentación introductoria, también hemos hecho nuestro esquema de red y de proyecto en general, esto nos ha servido para organizarnos para saber por donde tirar en el proyecto, después hemos pensado en usar Pi-Hole como servidor dns y dhcp, pero eso se vera en el futuro a ver como sale.
 
-## Des de el 22/01/25 hasta 29/01/25 ✅
+## Desde el 22/01/25 hasta 29/01/25 ✅
 
 Lo que hemos hecho ha sido organizar nuestras tareas, especificar nuestros objetivos, especificar nuestras funcionalidades, organizar el proyecto a nivel tanto de recursos de hardware como de software, hacer un diagrama de gantt sobre los tiempos que necesitamos para hacer nuestro proyecto y documentarlo en github
 
