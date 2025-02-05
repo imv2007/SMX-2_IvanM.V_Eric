@@ -75,12 +75,14 @@ _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pá
 | Creación y gestión de sistemas  | Diseño web y gestor de bases de datos|
 |Organización, GitHub, trello, Aprender contents anteriormente especificados estar pendiente de trello y GitHub cuando este ausente (cuestiones médicas)| GitHub, trello, ayudar a poner al día a Iván cuando este ausente (cuestiones medicas)|
 
+
 ## Funcionalidades del equipo
 
-Ivan:
+Ivan: 
+
 Eric:
 
-## Diagrama de la red: 📡
+## Diagrama de la red 📡
 En el diagrama de red lo que hay es un router conectado a firewall(sophos) y a un DHCP que se usara cuando todos los servidores esten configurados porque el reparto de ips en firewall hace que despues no sea tan dificil de configurar. el propio firewall esta conectado a un switch ficticio que permite conectarse a todos los servidores y a los pcs fisicos, la razon la cual hemos conectado el switch con los pcs reales es porque en los pcs reales es donde se crean los servidores y el firewall. los servidores dns y dhcp nos permite tener direcciones ip para todos los servidores y un dominio para nuestra web, la razon por la cual ponemos dhcp ahora es para que los servidores tengan ip para que a futuro se pueda conectar con el DHCP de firewall. el Truenas nos permitira con rsync tener copias de seguridad de nuestra informacion. el servidor  web (nginx) nos permitira guardar nuestro codigo y poder buscarlo en web. y el servidor MySQL nos servira para tener bases de datos en nuestra web._
 ![image](https://github.com/user-attachments/assets/6bca9822-9952-4e72-982c-208604c7e697)
 
@@ -185,6 +187,10 @@ Lo que hemos hecho ha sido organizar nuestras tareas, especificar nuestros objet
 ### 03/02/25 
 
 Hoy lo que hemos hecho ha sido crear nuestra arquitectura de sistema, aun no se ha acabado pero tendremos mas dias para hacerlo
+
+### 05/02/25
+
+Hoy lo que hemos hecho ha sido arreglar un poco el github para que los contenidos esten correctamente, empezar a hacer el server dns y dhcp y arreglar un poco el diagrama de la red
 
                                 
 
