@@ -160,5 +160,7 @@ Hoy lo que hemos hecho ha sido crear nuestra arquitectura de sistema, aun no se 
 
 Hoy lo que hemos hecho ha sido arreglar un poco el github para que los contenidos esten correctamente, empezar a hacer el server dns y dhcp y arreglar un poco el diagrama de la red
 
+
+
                                 
 
