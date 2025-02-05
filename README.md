@@ -30,7 +30,7 @@ Aplicaciones web (HTML y CSS, JavaScript, PHP, MYSQL)
 
 Conocimientos extra (Pi hole). 
 
-## _conocimientos extra_
+###  _conocimientos extra_
 * [DHCP](https://www.redeszone.net/tutoriales/internet/que-es-protocolo-dhcp/) - EXPLICACION DHCP
 * [DNS](https://www.ibm.com/es-es/topics/dns-protocol) - EXPLICACION DNS
 * [PHP](https://www.php.net/manual/es/intro-whatis.php) - EXPLICACION PHP
@@ -41,7 +41,7 @@ Conocimientos extra (Pi hole).
 
 
 
-# Objetivos del proyecto ⭐  
+## Objetivos del proyecto ⭐  
 
 _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia página web, poder crear nuestra propia marca de ropa y cumplir con las expectativas de la gente que visualize nuestra idea_
 
