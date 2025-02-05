@@ -116,7 +116,7 @@ En el diagrama de red lo que hay es un router conectado a firewall(sophos) y a u
 | PC Eric | Procesador i5 13400F 32 GB de Memoria RAM 500GB Memoria SSD Nvidia GeForce GTX 1060 |Windows, Maquinas virtuales Ubuntu|
 
 
-_El uso de los ordenadores de clase es para poder virtualizar los servidores y guardar el contenido de la web_
+ *El uso de los ordenadores de clase es para poder virtualizar los servidores y guardar el contenido de la web*
 
 _El uso de los ordenadores de casa de los dos es por si no acabamos en clase los contenidos correspodientes en clase_
 
