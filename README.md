@@ -37,11 +37,11 @@ Conocimientos extra (Pi hole).
 
 https://docs.pi-hole.net/main/basic-install
 
-# Organización proyecto de síntesis 2 ⭐  
+# Objetivos del proyecto ⭐  
 
 _Los objetivos que tenemos con este proyecto son, poder tener nuestra propia página web, poder crear nuestra propia marca de ropa y cumplir con las expectativas de la gente que visualice nuestra idea_
 
-### Requisitos 📋
+### Listado de tareas 📋
 -Especificar listado de tareas
 
 -Aprender HTML, css
