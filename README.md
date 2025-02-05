@@ -38,11 +38,8 @@ _INFO_
 * [PHP](https://www.php.net/manual/es/intro-whatis.php) - EXPLICACION PHP
 * [PI-HOLE](https://docs.pi-hole.net/main/basic-install) - EXPLICACION PI-HOLE
 * [MySQL](https://www.hostinger.es/tutoriales/que-es-mysql) - EXPLICACION MySQL
-* [HTML,CSS,JAVASCRIPT](https://dinahosting.com/blog/entendiendo-la-base-del-desarrollo-web-html-css-y-javascript/) - EXPLICACION DESARROLLO WEB  
-  
+* [HTML,CSS,JAVASCRIPT](https://dinahosting.com/blog/entendiendo-la-base-del-desarrollo-web-html-css-y-javascript/) - EXPLICACION DESARROLLO WEB
 
-
- 
 
 
 # Objetivos del proyecto ⭐  
