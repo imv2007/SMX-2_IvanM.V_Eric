@@ -114,6 +114,8 @@ Truenas es útil para poder hacer copias de seguridad de nuestra información co
 
 Intel Core i7 11700
 
+1 TB de Memoria SSD 
+
 16 GB RAM ddr4
 
 UHD graphics 750
@@ -122,13 +124,16 @@ So: Windows
 
 Máquinas virtuales: Ubuntu
 
+El uso de los ordenadores de clase es para poder virtualizar nuestro proyecto
 
 -	1 ordenador (casa Iván:)
   
 
 Intel Core i5 9400
 
-16 GB RAM ddr4
+500 GB de Memoria SSD
+
+16 GB de Memoria RAM ddr4
 
 Nvidia GeForce GTX 960
 
@@ -142,9 +147,9 @@ Maquinas virtuales: Ubuntu
 
 Procesador i5 13400F
 
-32 GB RAM 
+32 GB de Memoria RAM 
 
-500GB SSD
+500GB Memoria SSD
 
 Nvidia GeForce GTX 1060 
 
