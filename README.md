@@ -18,6 +18,7 @@ Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pagi
 
 El publico objetivo al que nos dirigimos, es a gente joven entre 14 años a 35 años, ya que nos queremos adaptar al mercado de la moda y actualizaros según los estándares de moda, tanto de la gente como de otras marcas que nos diferencian. 
 
+#### Modulos de referencia
 los módulos de referencia del ciclo que necesitaremos para este proyecto son: 
 Sistemas operativos en red (Maquinas virtuales linux...) 
 
