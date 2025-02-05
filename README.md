@@ -116,11 +116,11 @@ En el diagrama de red lo que hay es un router conectado a firewall(sophos) y a u
 
 
 
-|     (PC)      |   Componentes    | Caracteristicas       |
-| :---          |     :---:        |    ---:               |
-| 2 PC CLASE | Intel Core i7 11700, 1 TB de Memoria SSD, 16 GB RAM ddr4 UHD graphics 750 | So: Windows Máquinas virtuales: Ubuntu   |
-| PC Iván   | Intel Core i5 9400 500 GB de Memoria SSD 16 GB de Memoria RAM ddr4 Nvidia GeForce GTX 960         | So: Windows, Maquinas virtuales: Ubuntu        |
-| PC Eric | Procesador i5 13400F 32 GB de Memoria RAM 500GB Memoria SSD Nvidia GeForce GTX 1060       | So: Windows 10 Maquinas virtuales: Ubuntu      |
+|     Material      |   Componentes    | Caracteristicas       |
+| :--- |     :---:        |    ---:  |
+| 2 PC CLASE | Intel Core i7 11700, 1 TB de Memoria SSD, 16 GB RAM ddr4 UHD graphics 750 | Windows Máquinas virtuales: Ubuntu |
+| PC Iván | Intel Core i5 9400 500 GB de Memoria SSD 16 GB de Memoria RAM ddr4 Nvidia GeForce GTX 960 | Windows, Maquinas virtuales: Ubuntu |
+| PC Eric | Procesador i5 13400F 32 GB de Memoria RAM 500GB Memoria SSD Nvidia GeForce GTX 1060 |Windows 10 Maquinas virtuales: Ubuntu |
 
 
 
