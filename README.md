@@ -36,14 +36,12 @@ _EXPLICACION DE PORTOCOLOS_
 
 * [DHCP](https://www.redeszone.net/tutoriales/internet/que-es-protocolo-dhcp/) - EXPLICACION DHCP
 * [DNS](https://www.ibm.com/es-es/topics/dns-protocol) - EXPLICACION DNS
-* [PHP](https://rockcontent.com/es/blog/php/https://www.php.net/manual/es/intro-whatis.php) - EXPLICACION PHP
-* [PI-HOLE](ttps://docs.pi-hole.net/main/basic-install) - EXPLICACION PI-HOLE
+* [PHP](https://www.php.net/manual/es/intro-whatis.php) - EXPLICACION PHP
+* [PI-HOLE](https://docs.pi-hole.net/main/basic-install) - EXPLICACION PI-HOLE
 
 
  
 
-
-https://docs.pi-hole.net/main/basic-install
 
 # Objetivos del proyecto ⭐  
 
