@@ -86,14 +86,19 @@ Truenas es útil para poder hacer copias de seguridad de nuestra información co
 |           Iván                  |                 Eric                 | 
 | ------------------------------- | -------------------------------------|
 | Creación y gestión de sistemas  | Diseño web y gestor de bases de datos|
-|Organización, GitHub, trello, Aprender contents anteriormente especificados estar pendiente de trello y GitHub cuando este ausente (cuestiones médicas)| GitHub, trello, ayudar a poner al día a Iván cuando este ausente (cuestiones medicas)|
+|Organización, GitHub, trello, Aprender contents anteriormente especificados estar pendiente de trello y GitHub cuando este ausente | GitHub, trello, ayudar a poner al día a Iván cuando este ausente |
 
 
 ## Funcionalidades del equipo
-
-Ivan: 
-
+Iván:
+Configuración y gestión de sistemas (Linux, DNS, DHCP)
+Copias de seguridad (Truenas)
+Apoyo en desarrollo web (PHP, MySQL)
 Eric:
+Seguridad (firewall, red)
+Diseño y desarrollo web (HTML, CSS, JavaScript)
+Gestión de bases de datos (MySQL)
+Coordinación de GitHub y Trello
 
 ## Diagrama de la red 📡
 En el diagrama de red lo que hay es un router conectado a firewall(sophos) y a un DHCP que se usara cuando todos los servidores esten configurados porque el reparto de ips en firewall hace que despues no sea tan dificil de configurar. el propio firewall esta conectado a un switch ficticio que permite conectarse a todos los servidores y a los pcs fisicos, la razon la cual hemos conectado el switch con los pcs reales es porque en los pcs reales es donde se crean los servidores y el firewall. los servidores dns y dhcp nos permite tener direcciones ip para todos los servidores y un dominio para nuestra web, la razon por la cual ponemos dhcp ahora es para que los servidores tengan ip para que a futuro se pueda conectar con el DHCP de firewall. el Truenas nos permitira con rsync tener copias de seguridad de nuestra informacion. el servidor  web (nginx) nos permitira guardar nuestro codigo y poder buscarlo en web. y el servidor MySQL nos servira para tener bases de datos en nuestra web._
