@@ -149,23 +149,26 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 
 Hemos estado haciendo las ideas de nuestro proyecto y las hemos plasmado en una presentación introductoria, también hemos hecho nuestro esquema de red y de proyecto en general, esto nos ha servido para organizarnos para saber por donde tirar en el proyecto, después hemos pensado en usar Pi-Hole como servidor dns y dhcp, pero eso se vera en el futuro a ver como sale.
 
-####  22/01/25 - 29/01/25 ✅
+#### Desde el 22/01/25 hasta 29/01/25 ✅
 
 Lo que hemos hecho ha sido organizar nuestras tareas, especificar nuestros objetivos, especificar nuestras funcionalidades, organizar el proyecto a nivel tanto de recursos de hardware como de software, hacer un diagrama de gantt sobre los tiempos que necesitamos para hacer nuestro proyecto y documentarlo en github
 
-#### 03/02/25 
-
+#### 03/02/25 ✅
+ 
 Hoy lo que hemos hecho ha sido crear nuestra arquitectura de sistema, aun no se ha acabado pero tendremos mas dias para hacerlo
 
-#### 05/02/25
+#### 04/02/25
 
 Hoy lo que hemos hecho ha sido arreglar un poco el github para que los contenidos esten correctamente, empezar a hacer el server dns y dhcp y arreglar un poco el diagrama de la red
 
 Incidencias 
 
-05/02/25
+#### 05/02/25
 
 hoy lo que nos ha pasado ha sido que estabamos configurando el servidor de linux y no nos detectaba el comando nano
 
+#### 10/02/25
+
+Hoy lo que hemos echo ha sido empezar el pi-hole porque las maquinas no funcionaban , estamos en proceso de terminar Pi-Hole
                                 
 
