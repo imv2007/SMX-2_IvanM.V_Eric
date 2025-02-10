@@ -94,6 +94,7 @@ Iván:
 * Configuración y gestión de sistemas (Linux, DNS, DHCP)
 * Copias de seguridad (Truenas)
 * Apoyo en desarrollo web (PHP, MySQL)
+  
 Eric:  
 * Seguridad (firewall, red)
 * Diseño y desarrollo web (HTML, CSS, JavaScript)
