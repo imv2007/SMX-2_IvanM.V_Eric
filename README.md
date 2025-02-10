@@ -153,24 +153,7 @@ Hemos estado haciendo las ideas de nuestro proyecto y las hemos plasmado en una 
 
 Lo que hemos hecho ha sido organizar nuestras tareas, especificar nuestros objetivos, especificar nuestras funcionalidades, organizar el proyecto a nivel tanto de recursos de hardware como de software, hacer un diagrama de gantt sobre los tiempos que necesitamos para hacer nuestro proyecto y documentarlo en github
 
-#### 03/02/25 ✅
- 
-Hoy lo que hemos hecho ha sido crear nuestra arquitectura de sistema, aun no se ha acabado pero tendremos mas dias para hacerlo
-
-#### 04/02/25
-
-Hoy lo que hemos hecho ha sido arreglar un poco el github para que los contenidos esten correctamente, empezar a hacer el server dns y dhcp y arreglar un poco el diagrama de la red
-
-Incidencias 
-
-#### 05/02/25
-
-hoy lo que nos ha pasado ha sido que estabamos configurando el servidor de linux y no nos detectaba el comando nano
-
-#### 10/02/25
-
-Hoy lo que hemos echo ha sido empezar el pi-hole porque las maquinas no funcionaban , estamos en proceso de terminar Pi-Hole
                                 
 #### Desde el 03/02/25 hasta 10/02/25
 
-lo que hemos estado haciendo esta semana ha sido empezar y terminar la arquitectura del sistema y empezar con los servidores DNS y DHCP. todavia no hemos terminado por diversos problemas con las maquinas anteriores, entonces solo nos quedaria terminar el pi-hole
+lo que hemos estado haciendo esta semana ha sido empezar y terminar la arquitectura del sistema y empezar con los servidores DNS y DHCP. todavia no hemos terminado por diversos problemas con las maquinas anteriores, uno de estos problemas es que no nos detectaba el nano o que el archivo.yaml estaba vacio y no podiamos hacer nada, entonces solo nos quedaria solventar el problema y terminar el pi hole
