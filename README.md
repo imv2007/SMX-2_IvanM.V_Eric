@@ -171,4 +171,6 @@ hoy lo que nos ha pasado ha sido que estabamos configurando el servidor de linux
 
 Hoy lo que hemos echo ha sido empezar el pi-hole porque las maquinas no funcionaban , estamos en proceso de terminar Pi-Hole
                                 
+#### Desde el 03/02/25 hasta 10/02/25
 
+lo que hemos estado haciendo esta semana ha sido empezar y terminar la arquitectura del sistema y empezar con los servidores DNS y DHCP. todavia no hemos terminado por diversos problemas con las maquinas anteriores, entonces solo nos quedaria terminar el pi-hole
