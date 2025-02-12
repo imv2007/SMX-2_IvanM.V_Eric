@@ -71,7 +71,7 @@ Truenas es útil para poder hacer copias de seguridad de nuestra información co
 
 **_Aprender XAMPP_**
 
-**Configurar los servers_**
+**_Configurar los servers_**
 
 **_Hacer la memoria cada día_**
 
