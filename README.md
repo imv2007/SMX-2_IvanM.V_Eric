@@ -90,12 +90,12 @@ Truenas es útil para poder hacer copias de seguridad de nuestra información co
 
 
 ## Funcionalidades del equipo
-Iván:
+**Iván**:
 * Configuración y gestión de sistemas (Linux, DNS, DHCP)
 * Copias de seguridad (Truenas)
 * Apoyo en desarrollo web (PHP, MySQL)
   
-Eric:  
+**Eric**:  
 * Seguridad (firewall, red)
 * Diseño y desarrollo web (HTML, CSS, JavaScript)
 * Gestión de bases de datos (MySQL)
@@ -146,21 +146,37 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 **DNS**-**DHCP**
 
 #### ¿Qué es?
-DNS es       DHCP  
+DNS  es un sistema de nombres que traduce nombres de dominio en direcciones IP, mientras que DHCP  es un protocolo de administración de red que automatiza el proceso de asignación de direcciones IP a dispositivos en una red.
 
 #### ¿Por qué es necesario?
 
+
 #### ¿Dónde hay información oficial? 
+> **SOBRE DNS**:
+> 
+> https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio
+> 
+> https://tools.ietf.org/html/rfc1034
+> 
+> **SOBRE DHCP**:
+> 
+> https://es.wikipedia.org/wiki/DHCP
+>
+> https://www.digitalocean.com/community/tutorials/what-is-dhcp
+>
+> https://tools.ietf.org/html/rfc2131
 
-#### Extras
+#### Extras:
+Pi-hole es una herramienta que funciona como un servidor DNS, cuando se configura en tu red, Pi-hole intercepta las solicitudes DNS 
+#### Instalación (DNS y del DHCP):
 
-#### Instalación (DNS y del DHCP)
+#### Detalles de la MV:
 
-#### Detalles de la MV
+#### Pasos a seguir:
+Paso 1
 
-#### Pasos a seguir
-
-#### Incidencias
+#### Incidencias:
+lo que nos sucedió fue que cuando instalamos el pi-hole con la actualización del kernel, miramos con la guía de acceder a la web de pi-hole pero con la dirección del servidor, pero se hace simplemente poniendo la ip anfitrión de la red nat
 
 
 
