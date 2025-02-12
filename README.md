@@ -11,7 +11,7 @@
 Nine studios (marca de ropa personal con bases de datos MYSQL y pagina web dinámica)
 
  ### Introduccion
- Hemos decidido hacer una marca de ropa personal porque pensamos que con los conocimientos que nos brindan los profesores de el ciclo, podremos llevar a cabo esta idea, también ellos pueden ayudarnos para que esta idea sea posible. 
+Nine studios es una empresa que se dedica a diseñar y vender ropa, tenemos una tienda online que haremos mediante html css y javascript, gracias a los conocimientos que nos brindan los profesores de el ciclo, podremos llevar a cabo esta idea y también ellos nos podran ayudar para que esta idea sea posible. 
 
 Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pagina web y poder crear nuestra propia marca de ropa. 
 
@@ -143,16 +143,24 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 
 
 ## Guías de uso 
-**DNS**:**DHCP**
+**DNS**-**DHCP**
 
-¿Qué es? 
-¿Por qué es necesario? 
-¿Dónde hay información oficial? 
-Extras
-Instalación (DNS y del DHCP)
-Detalles de la MV
-Pasos a seguir
-Incidencias
+#### ¿Qué es?
+DNS es       DHCP  
+
+#### ¿Por qué es necesario?
+
+#### ¿Dónde hay información oficial? 
+
+#### Extras
+
+#### Instalación (DNS y del DHCP)
+
+#### Detalles de la MV
+
+#### Pasos a seguir
+
+#### Incidencias
 
 
 
