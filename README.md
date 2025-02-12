@@ -63,7 +63,7 @@ Truenas es útil para poder hacer copias de seguridad de nuestra información co
 ## Listado de tareas 📋
 **_Especificar listado de tareas_**
 
-**_Aprender HTML, css_**
+**_Aprender HTML, CSS_**
 
 **_Aprender JavaScript_**
 
