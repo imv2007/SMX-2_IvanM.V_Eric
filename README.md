@@ -61,23 +61,23 @@ Truenas es útil para poder hacer copias de seguridad de nuestra información co
 
 
 ## Listado de tareas 📋
--Especificar listado de tareas
+**_Especificar listado de tareas_**
 
--Aprender HTML, css
+**_Aprender HTML, css_**
 
--Aprender JavaScript 
+**_Aprender JavaScript_**
 
--Aprender PHP, MYSQL 
+**_Aprender PHP, MYSQL_**
 
--Aprender XAMPP 
+**_Aprender XAMPP_**
 
--Configurar los servers 
+**Configurar los servers_**
 
--Hacer la memoria cada día 
+**_Hacer la memoria cada día_**
 
--Aprender todo lo relacionado con Carmen 
+**_Aprender todo lo relacionado con Carmen_**
 
--Aprender pi hole
+**_Aprender pi hole_**
 
 
 
