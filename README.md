@@ -142,6 +142,25 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 ![image](https://github.com/user-attachments/assets/a8f3e368-dafa-439d-a2c6-27c5111c4191)
 
 
+## Guías de uso 
+**DNS**:**DHCP**
+
+¿Qué es? 
+¿Por qué es necesario? 
+¿Dónde hay información oficial? 
+Extras
+Instalación (DNS y del DHCP)
+Detalles de la MV
+Pasos a seguir
+Incidencias
+
+
+
+
+
+
+
+
 # Diario semanal
 
 
@@ -160,6 +179,9 @@ lo que hemos estado haciendo esta semana ha sido empezar y terminar la arquitect
 
 #### 11/2/25 
 Hoy intentamos avanzar con los servidores de dns y dhcp pero tuvimos distintos problemas con los pcs de clase porque el estabamos ejecutando la maquina desde el disco duro, entonces acabaremos las maquinas en casa
+
+
+
 
 
 ## incidencias
