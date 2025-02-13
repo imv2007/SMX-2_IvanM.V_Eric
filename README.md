@@ -142,14 +142,14 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 ![image](https://github.com/user-attachments/assets/a8f3e368-dafa-439d-a2c6-27c5111c4191)
 
 
-## Guías de uso 
-**DNS**-**DHCP**
+# DNS
+
 
 #### ¿Qué es?
 DNS  es un sistema de nombres que traduce nombres de dominio en direcciones IP, mientras que DHCP  es un protocolo de administración de red que automatiza el proceso de asignación de direcciones IP a dispositivos en una red.
 
 #### ¿Por qué es necesario?
-
+Es necesario, porque necesitamos de un dominio para nuestra pagina web y para que nuestro nombre de dominio, se transforme en la direccion ip que nosotros le pusimos a nuestro servidor a la hora de buscar por internet.
 
 #### ¿Dónde hay información oficial? 
 > **SOBRE DNS**:
@@ -158,6 +158,25 @@ DNS  es un sistema de nombres que traduce nombres de dominio en direcciones IP, 
 > 
 > https://tools.ietf.org/html/rfc1034
 > 
+
+#### Instalación (DNS):
+Instalaremos Dns des de pi-hole en una maquina virtual de ubuntu server
+
+#### Detalles de la MV:
+
+#### Pasos a seguir:
+Paso 1
+
+# DHCP
+
+#### ¿Qué es?
+DNS  es un sistema de nombres que traduce nombres de dominio en direcciones IP, mientras que DHCP  es un protocolo de administración de red que automatiza el proceso de asignación de direcciones IP a dispositivos en una red.
+
+#### ¿Por qué es necesario?
+
+
+#### ¿Dónde hay información oficial? 
+
 > **SOBRE DHCP**:
 > 
 > https://es.wikipedia.org/wiki/DHCP
@@ -166,22 +185,39 @@ DNS  es un sistema de nombres que traduce nombres de dominio en direcciones IP, 
 >
 > https://tools.ietf.org/html/rfc2131
 
-#### Extras:
-Pi-hole es una herramienta que funciona como un servidor DNS, cuando se configura en tu red, Pi-hole intercepta las solicitudes DNS 
-#### Instalación (DNS y del DHCP):
 
-#### Detalles de la MV:
+### Configuracion (DHCP):
+
 
 #### Pasos a seguir:
 Paso 1
 
-#### Incidencias:
-lo que nos sucedió fue que cuando instalamos el pi-hole con la actualización del kernel, miramos con la guía de acceder a la web de pi-hole pero con la dirección del servidor, pero se hace simplemente poniendo la ip anfitrión de la red nat
+
+#### Configuracion (DNS y DHCP):
 
 
+#### Pasos a seguir:
+Paso 1
 
 
+# kernel
 
+#### ¿Qué es?
+DNS  es un sistema de nombres que traduce nombres de dominio en direcciones IP, mientras que DHCP  es un protocolo de administración de red que automatiza el proceso de asignación de direcciones IP a dispositivos en una red.
+
+#### ¿Por qué es necesario?
+
+
+#### ¿Dónde hay información oficial? 
+> **SOBRE Kernel**:
+> 
+> https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio
+> 
+> https://tools.ietf.org/html/rfc1034
+> 
+
+#### Pasos a seguir:
+Paso 1
 
 
 
@@ -214,3 +250,5 @@ El dia anterior lo que hice en casa fue instalar el pi-hole con todo el procedim
 **PC18495** - Este pc nos ha estado dando problemas  a paso del tiempo, con el almacenamiento, el calentamiento del ordenador, con errores al iniciar maquinas de virtual box, incluso perdimos algunas porque se abortaron.
 
 **web pi-Hole** - lo que nos sucedió fue que cuando instalamos el pi-hole con la actualización del kernel, miramos con la guía de acceder a la web de pi-hole pero con la dirección del servidor, pero se hace simplemente poniendo la ip anfitrión de la red nat 
+
+
