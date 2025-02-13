@@ -201,7 +201,7 @@ Lo que hemos hecho ha sido organizar nuestras tareas, especificar nuestros objet
 
 lo que hemos estado haciendo esta semana ha sido empezar y terminar la arquitectura del sistema y empezar con los servidores DNS y DHCP. todavia no hemos terminado por diversos problemas con las maquinas anteriores, uno de estos problemas es que no nos detectaba el nano o que el archivo.yaml estaba vacio y no podiamos hacer nada, entonces solo nos quedaria solventar el problema y terminar el pi hole
 
-#### 11/2/25 
+#### 11/02/25 
 Hoy intentamos avanzar con los servidores de dns y dhcp pero tuvimos distintos problemas con los pcs de clase porque el estabamos ejecutando la maquina desde el disco duro, entonces acabaremos las maquinas en casa
 
 
