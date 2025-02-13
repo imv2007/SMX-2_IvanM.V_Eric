@@ -11,7 +11,7 @@
 Nine studios (marca de ropa personal con bases de datos MYSQL y pagina web dinámica)
 
  ### Introduccion
-Nine studios es una empresa que se dedica a diseñar y vender ropa, tenemos una tienda online que haremos mediante html css y javascript, gracias a los conocimientos que nos brindan los profesores de el ciclo, podremos llevar a cabo esta idea y también ellos nos podran ayudar para que esta idea sea posible. 
+Nine studios es, una marca de ropa la cual se dedica a vender ropa mediante una tienda online, para crear nuestra tienda online utilizaremos HTML, CSS, JavaScript, PHP y MySQL, todo este contenido sera posible de aprender y aplicar gracias a los profesores, que nos enseñaran a como hacerlo. 
 
 Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pagina web y poder crear nuestra propia marca de ropa. 
 
