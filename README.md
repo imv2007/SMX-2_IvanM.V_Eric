@@ -211,9 +211,9 @@ DNS  es un sistema de nombres que traduce nombres de dominio en direcciones IP, 
 #### ¿Dónde hay información oficial? 
 > **SOBRE Kernel**:
 > 
-> https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio
+> https://es.wikipedia.org/wiki/N%C3%BAcleo_(inform%C3%A1tica)
 > 
-> https://tools.ietf.org/html/rfc1034
+> https://www.geeknetic.es/Kernel/que-es-y-para-que-sirve
 > 
 
 #### Pasos a seguir:
