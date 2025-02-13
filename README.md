@@ -144,8 +144,7 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 
 
 #### ¿Qué es?
-DNS  es un sistema de nombres que traduce nombres de dominio en direcciones IP, mientras que DHCP  es un protocolo de administración de red que automatiza el proceso de asignación de direcciones IP a dispositivos en una red.
-
+DNS  es un sistema de nombres que traduce nombres de dominio en direcciones IP,
 #### ¿Por qué es necesario?
 Es necesario, porque necesitamos de un dominio para nuestra pagina web y para que nuestro nombre de dominio, se transforme en la direccion ip que nosotros le pusimos a nuestro servidor a la hora de buscar por internet.
 
@@ -158,7 +157,7 @@ Es necesario, porque necesitamos de un dominio para nuestra pagina web y para qu
 > 
 
 #### Instalación (DNS):
-Instalaremos Dns des de pi-hole en una maquina virtual de ubuntu server
+Instalaremos Dns des de pi-hole en una maquina virtual de ubuntu server, despues de instalar la maquina y el pi-hole, configuraremos este mismo para que pueda tener conectividad con el cliente
 
 #### Detalles de la MV:
 
@@ -168,7 +167,7 @@ Paso 1
 # DHCP
 
 #### ¿Qué es?
-DNS  es un sistema de nombres que traduce nombres de dominio en direcciones IP, mientras que DHCP  es un protocolo de administración de red que automatiza el proceso de asignación de direcciones IP a dispositivos en una red.
+DHCP es un protocolo de administración de red que automatiza el proceso de asignación de direcciones IP a dispositivos en una red.
 
 #### ¿Por qué es necesario?
 
@@ -185,7 +184,7 @@ DNS  es un sistema de nombres que traduce nombres de dominio en direcciones IP, 
 
 
 ### Configuracion (DHCP):
-
+Para configurar el dhcp necesitamos de haber instalado previamente el ubuntu server con dns y pi-hole, para entonces configurarlo des de pi-hole.
 
 #### Pasos a seguir:
 Paso 1
@@ -204,7 +203,7 @@ Paso 1
 DNS  es un sistema de nombres que traduce nombres de dominio en direcciones IP, mientras que DHCP  es un protocolo de administración de red que automatiza el proceso de asignación de direcciones IP a dispositivos en una red.
 
 #### ¿Por qué es necesario?
-
+Kernel es necesario porque para poder instalar pi-hole necesitamos de actualizar el kernel que tiene la Imagen ISO de ubuntu server
 
 #### ¿Dónde hay información oficial? 
 > **SOBRE Kernel**:
