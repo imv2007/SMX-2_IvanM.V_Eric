@@ -140,7 +140,10 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 ![image](https://github.com/user-attachments/assets/a8f3e368-dafa-439d-a2c6-27c5111c4191)
 
 
-# DNS
+# Guias de uso
+
+
+## DNS
 
 
 #### ¿Qué es?
@@ -164,7 +167,8 @@ Instalaremos Dns des de pi-hole en una maquina virtual de ubuntu server, despues
 #### Pasos a seguir:
 Paso 1
 
-# DHCP
+
+## DHCP
 
 #### ¿Qué es?
 DHCP es un protocolo de administración de red que automatiza el proceso de asignación de direcciones IP a dispositivos en una red.
@@ -191,7 +195,7 @@ Paso 1
 
 
 
-# kernel
+## kernel
 
 #### ¿Qué es?
 DNS  es un sistema de nombres que traduce nombres de dominio en direcciones IP, mientras que DHCP  es un protocolo de administración de red que automatiza el proceso de asignación de direcciones IP a dispositivos en una red.
