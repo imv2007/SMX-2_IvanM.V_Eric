@@ -204,8 +204,8 @@ lo que hemos estado haciendo esta semana ha sido empezar y terminar la arquitect
 #### 11/02/25 
 Hoy intentamos avanzar con los servidores de dns y dhcp pero tuvimos distintos problemas con los pcs de clase porque el estabamos ejecutando la maquina desde el disco duro, entonces acabaremos las maquinas en casa
 
-
-
+#### 12/02/25
+El dia anterior lo que hice en casa fue instalar el pi-hole con todo el procedimiento necesario, y hoy en clase lo que hemos hecho ha sido terminar de instalarlo, configurarlo y probarlo en un equipo cliente 
 
 
 ## incidencias
