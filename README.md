@@ -170,7 +170,7 @@ Paso 1
 DHCP es un protocolo de administración de red que automatiza el proceso de asignación de direcciones IP a dispositivos en una red.
 
 #### ¿Por qué es necesario?
-
+DHCP es necesario Porque el cliente necesita una ip que este en la misma red y proporcionada por el servidor ubuntu en nuestro caso, para saber si el servidor funciona
 
 #### ¿Dónde hay información oficial? 
 
@@ -189,12 +189,6 @@ Para configurar el dhcp necesitamos de haber instalado previamente el ubuntu ser
 #### Pasos a seguir:
 Paso 1
 
-
-#### Configuracion (DNS y DHCP):
-
-
-#### Pasos a seguir:
-Paso 1
 
 
 # kernel
