@@ -75,8 +75,6 @@ Truenas es útil para poder hacer copias de seguridad de nuestra información co
 
 **_Hacer la memoria cada día_**
 
-**_Aprender todo lo relacionado con Carmen_**
-
 **_Aprender pi hole_**
 
 
