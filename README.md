@@ -146,7 +146,7 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 ## kernel
 
 #### ¿Qué es?
-
+El kernel es el núcleo del sistema operativo, responsable de gestionar los recursos del hardware y permitir que el software interactúe con él. Es la parte fundamental que se encarga de tareas como la administración de memoria, la gestión de procesos y la comunicación con los dispositivos del sistema.
 
 #### ¿Por qué es necesario?
 Kernel es necesario porque para poder instalar pi-hole necesitamos de actualizar el kernel que tiene la Imagen ISO de ubuntu server
@@ -175,7 +175,7 @@ Comprobar de que lo tenemos todo correcto con sudo reboot y uname -r
 
 
 ## DNS
-
+DNS es un sistema que traduce nombres de dominio legibles por humanos (como www.google.com) en direcciones IP numéricas (como 142.250.190.46) que los ordenadores utilizan para identificar servidores en la red.
 
 #### ¿Qué es?
 DNS  es un sistema de nombres que traduce nombres de dominio en direcciones IP, el cual nos sirve para poder tener nuestro propio dominio web
@@ -220,8 +220,7 @@ Para entrar a la web de pihole tienes que entrar poniendo tu ip anfitrion de la 
 ## DHCP
 
 #### ¿Qué es?
-DHCP es un protocolo de administración de red que automatiza el proceso de asignación de direcciones IP a dispositivos en una red.
-
+DHCP es un protocolo de red que asigna automáticamente direcciones IP y otros parámetros de configuración a los dispositivos dentro de una red.
 #### ¿Por qué es necesario?
 DHCP es necesario Porque el cliente necesita una ip que este en la misma red y proporcionada por el servidor ubuntu en nuestro caso, para saber si el servidor funciona
 
@@ -272,6 +271,8 @@ Hoy intentamos avanzar con los servidores de dns y dhcp pero tuvimos distintos p
 #### 12/02/25
 El dia anterior lo que hice en casa fue instalar el pi-hole con todo el procedimiento necesario, y hoy en clase lo que hemos hecho ha sido terminar de instalarlo, configurarlo y probarlo en un equipo cliente 
 
+#### 17/02/25
+Hoy lo que hemos hecho ha sido terminar de escribir en la memoria todo lo de Pihole y empezar a instalar apache
 
 ## incidencias
 **Sudo nano /etc/netplan/00-installer-config.yaml** - El error que hay a la hora de hacer este comando es que no podemos por alguna razón ver el contenido del archivo (básicamente porque no pone nada) entonces estamos mirando de solucionarlo porque sino no podremos hacer el pi-hole. la solución al error es hacer un sudo apt install nano para instalar el servicio y poder editar el archivo
