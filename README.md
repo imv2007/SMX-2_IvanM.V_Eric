@@ -205,8 +205,12 @@ Para crear la red nat lo que hay que hacer es, ir a las herramientas de virtualb
 
 Paso 2
 Instalacion del Curl:
-Para empezar, se actualizan los paquetes con sudo apt update y sudo apt upgrade, despues sudo apt install curl -y Para instalar el curl, despues hacemos un curl -sSL https://install.pi-hole.net | bash Para instalar Automaticamente el pi-hole
-
+Para empezar, se actualizan los paquetes con sudo apt update y sudo apt upgrade, despues sudo apt install curl -y Para instalar el curl, despues hacemos un curl -sSL https://install.pi-hole.net | bash Para instalar Automaticamente el pi-hole, Esto abrira el instalador interactivo, despues
+Elige un servidor DNS: Puedes seleccionar Cloudflare (1.1.1.1), Google (8.8.8.8), Quad9, OpenDNS, etc. (selecciona google y cloudfare)
+Selecciona las listas de bloqueo predeterminadas (Dejalo por defecto).
+Configura una IP estática para evitar problemas en la red, por ejemplo la de tu servidor.
+Habilita la interfaz web para gestionar Pi-hole desde el navegador.
+y por ultimo
 ## DHCP
 
 #### ¿Qué es?
