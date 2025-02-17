@@ -198,7 +198,7 @@ Paso 1
 ## kernel
 
 #### ¿Qué es?
-DNS  es un sistema de nombres que traduce nombres de dominio en direcciones IP, mientras que DHCP  es un protocolo de administración de red que automatiza el proceso de asignación de direcciones IP a dispositivos en una red.
+
 
 #### ¿Por qué es necesario?
 Kernel es necesario porque para poder instalar pi-hole necesitamos de actualizar el kernel que tiene la Imagen ISO de ubuntu server
