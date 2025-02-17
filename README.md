@@ -210,7 +210,13 @@ Elige un servidor DNS: Puedes seleccionar Cloudflare (1.1.1.1), Google (8.8.8.8)
 Selecciona las listas de bloqueo predeterminadas (Dejalo por defecto).
 Configura una IP estática para evitar problemas en la red, por ejemplo la de tu servidor.
 Habilita la interfaz web para gestionar Pi-hole desde el navegador.
-y por ultimo
+y por ultimo si quieres cambiar la contraseña hazlo con pihole -a -p
+
+Paso 3
+configuracion de la web:
+Para entrar a la web de pihole tienes que entrar poniendo tu ip anfitrion de la red nat /admin, ejemplo: (100.77.20.22/admin), entonces una vez entras en la web, de las a local dns y despues a dns records, en dns records tienes que poner el nombre de tu dominio y la ip de tu servidor.
+
+
 ## DHCP
 
 #### ¿Qué es?
