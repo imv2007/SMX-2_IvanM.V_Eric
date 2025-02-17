@@ -241,8 +241,12 @@ Para configurar el dhcp necesitamos de haber instalado previamente el ubuntu ser
 
 #### Pasos a seguir:
 Paso 1
+Configuracion pihole:
+Con el pihole configurado anteriormente ahora toca configurar el dhcp que tiene pihole. Para configurar el dhcp de pi-hole para empezar dale al apartado de settings, en este apartado le das a DHCP, este mismo te llevara a la configuracion de rangos de ip y de gateway, el rango puedes poner lo que quieras (que este en la misma red) y el gateway pones la 1.1.
 
-
+Paso 2
+Comprobacion mediante cliente:
+una vez hecho todo lo anterior, hacemos un ubuntu cliente que configuramos con la misma red nat, habilitamos en la red del ubuntu solo el dns y ya tenemos direccion proporcionada por nuestro servidor.
 
 
 
