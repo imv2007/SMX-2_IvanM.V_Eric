@@ -143,11 +143,42 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 # Guias de uso
 
 
+## kernel
+
+#### ¿Qué es?
+
+
+#### ¿Por qué es necesario?
+Kernel es necesario porque para poder instalar pi-hole necesitamos de actualizar el kernel que tiene la Imagen ISO de ubuntu server
+
+#### ¿Dónde hay información oficial? 
+> **SOBRE Kernel**:
+> 
+> https://es.wikipedia.org/wiki/N%C3%BAcleo_(inform%C3%A1tica)
+> 
+> https://www.geeknetic.es/Kernel/que-es-y-para-que-sirve
+> 
+
+#### Pasos a seguir:
+Paso 1
+Comprobar la Version del kernel con uname -r
+
+Paso 2
+Actualizar los paquetes con sudo apt update && Sudo apt upgrade -y, despues reiniciar con un reboot y comprobar la version nueva para verificar.
+
+Paso 3
+Instalar el kernel desde ubuntu mainline con sudo add-apt-repository ppa:cappelikan/ppa -y, despues sudo apt update y sudo apt install mainline -y y hacemos por ultimo un mainline --install-latest.
+
+Paso 4 
+Comprobar de que lo tenemos todo correcto con sudo reboot y uname -r
+
+
+
 ## DNS
 
 
 #### ¿Qué es?
-DNS  es un sistema de nombres que traduce nombres de dominio en direcciones IP,
+DNS  es un sistema de nombres que traduce nombres de dominio en direcciones IP, el cual nos sirve para poder tener nuestro propio dominio web
 #### ¿Por qué es necesario?
 Es necesario, porque necesitamos de un dominio para nuestra pagina web y para que nuestro nombre de dominio, se transforme en la direccion ip que nosotros le pusimos a nuestro servidor a la hora de buscar por internet.
 
@@ -163,7 +194,10 @@ Es necesario, porque necesitamos de un dominio para nuestra pagina web y para qu
 Instalaremos Dns des de pi-hole en una maquina virtual de ubuntu server, despues de instalar la maquina y el pi-hole, configuraremos este mismo para que pueda tener conectividad con el cliente
 
 #### Detalles de la MV:
-
+4096 Mb de ram
+3 Procesadores
+25 GB de Memoria SSD
+Red NAT: NatNST 192.168.1.0
 #### Pasos a seguir:
 Paso 1
 
@@ -194,25 +228,6 @@ Para configurar el dhcp necesitamos de haber instalado previamente el ubuntu ser
 Paso 1
 
 
-
-## kernel
-
-#### ¿Qué es?
-
-
-#### ¿Por qué es necesario?
-Kernel es necesario porque para poder instalar pi-hole necesitamos de actualizar el kernel que tiene la Imagen ISO de ubuntu server
-
-#### ¿Dónde hay información oficial? 
-> **SOBRE Kernel**:
-> 
-> https://es.wikipedia.org/wiki/N%C3%BAcleo_(inform%C3%A1tica)
-> 
-> https://www.geeknetic.es/Kernel/que-es-y-para-que-sirve
-> 
-
-#### Pasos a seguir:
-Paso 1
 
 
 
