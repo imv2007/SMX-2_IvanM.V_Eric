@@ -200,7 +200,12 @@ Instalaremos Dns des de pi-hole en una maquina virtual de ubuntu server, despues
 Red NAT: NatNST 192.168.1.0
 #### Pasos a seguir:
 Paso 1
+Creacion de la red nat:
+Para crear la red nat lo que hay que hacer es, ir a las herramientas de virtualbox, ir a Redes NAT, Crear una red nat con una direccion ip la cual este en la misma red la cual este el servidor, despues tienes que ir al reenvio de puertos, crear uno nuevo, en la direccion anfitrion pones la ip de tu ordenador, en el puerto pones el puerto 80 y en la direccion invitado pones la direccion que tu quieras, pero que este en la misma red que la red nat y la maquina en cuestion.
 
+Paso 2
+Instalacion del Curl:
+Para empezar, se actualizan los paquetes con sudo apt update y sudo apt upgrade, despues sudo apt install curl -y Para instalar el curl, despues hacemos un curl -sSL https://install.pi-hole.net | bash Para instalar Automaticamente el pi-hole
 
 ## DHCP
 
@@ -259,6 +264,6 @@ El dia anterior lo que hice en casa fue instalar el pi-hole con todo el procedim
 
 **PC18495** - Este pc nos ha estado dando problemas  a paso del tiempo, con el almacenamiento, el calentamiento del ordenador, con errores al iniciar maquinas de virtual box, incluso perdimos algunas porque se abortaron.
 
-**web pi-Hole** - lo que nos sucedió fue que cuando instalamos el pi-hole con la actualización del kernel, miramos con la guía de acceder a la web de pi-hole pero con la dirección del servidor, pero se hace simplemente poniendo la ip anfitrión de la red nat 
+**web pi-Hole** - lo que nos sucedió fue que cuando instalamos el pi-hole con la actualización del kernel, miramos con la guía de acceder a la web de pi-hole pero con la dirección del servidor, pero se hace simplemente poniendo la ip anfitrión de la red nat con un /admin un ejemplo seria: (100.1.1.1/admin) 
 
 
