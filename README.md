@@ -100,7 +100,11 @@ Truenas es útil para poder hacer copias de seguridad de nuestra información co
 *Coordinación de GitHub y Trello
 
 ## Diagrama de la red 📡
-En el diagrama de red lo que hay es un router conectado a firewall(sophos) y a un DHCP que se usara cuando todos los servidores esten configurados porque el reparto de ips en firewall hace que despues no sea tan dificil de configurar. el propio firewall esta conectado a un switch ficticio que permite conectarse a todos los servidores y a los pcs fisicos, la razon la cual hemos conectado el switch con los pcs reales es porque en los pcs reales es donde se crean los servidores y el firewall. los servidores dns y dhcp nos permite tener direcciones ip para todos los servidores y un dominio para nuestra web, la razon por la cual ponemos dhcp ahora es para que los servidores tengan ip para que a futuro se pueda conectar con el DHCP de firewall. el Truenas nos permitira con rsync tener copias de seguridad de nuestra informacion. el servidor  web (nginx) nos permitira guardar nuestro codigo y poder buscarlo en web. y el servidor MySQL nos servira para tener bases de datos en nuestra web._
+En el diagrama de red lo que hay es un router conectado a firewall(Pfsense) conectado a la par con un switch ficticio el cual da con todos los servidores, estos mismos son los que van a hecer que mi web funcione.
+El primer server es el de dns y dhcp, que lo hemos hecho con pi-hole para que el dhcp no se nos complique a la hora de funcionar, asi matamos dos pajaros de un tiro.
+El segundo server es es el de truenas, este servidor nos servira en el futuro para poder hacer copias de seguridad de nuestra informacion.
+El tercer server es el de apache, este server nos servira para poder almacenar nuestro contenido html que hagamos en el futuro.
+El cuarto server y ultimo sera el de MySQL, Este server nos servira para poder tener bases de datos en nuestra pagina web
 
 ![image](https://github.com/user-attachments/assets/42e7eaad-e452-447a-95de-e87dad336c20)
 
