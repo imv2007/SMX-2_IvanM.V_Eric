@@ -252,7 +252,8 @@ Paso 2
 Comprobacion mediante cliente:
 una vez hecho todo lo anterior, hacemos un ubuntu cliente que configuramos con la misma red nat, habilitamos en la red del ubuntu solo el dns y ya tenemos direccion proporcionada por nuestro servidor.
 
-
+## Apache
+https://www.digitalocean.com/community/tutorials/como-instalar-el-servidor-web-de-apache-en-debian-9-es
 
 # Diario semanal
 
