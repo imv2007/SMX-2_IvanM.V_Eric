@@ -254,6 +254,7 @@ una vez hecho todo lo anterior, hacemos un ubuntu cliente que configuramos con l
 
 ## Apache
 https://www.digitalocean.com/community/tutorials/como-instalar-el-servidor-web-de-apache-en-debian-9-es
+Tenemos que saltarnos el paso 2 de la web a la hora de explicarlo
 
 # Diario semanal
 
