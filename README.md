@@ -253,8 +253,54 @@ Comprobacion mediante cliente:
 una vez hecho todo lo anterior, hacemos un ubuntu cliente que configuramos con la misma red nat, habilitamos en la red del ubuntu solo el dns y ya tenemos direccion proporcionada por nuestro servidor.
 
 ## Apache
+
+Introducción al servicio 
+#### ¿Qué es?
+Apache es un servidor web de código abierto que permite alojar sitios web y aplicaciones. Es uno de los servidores web más populares y ampliamente utilizados en la web debido a su fiabilidad, flexibilidad y capacidad para manejar tráfico elevado. Apache puede servir tanto páginas estáticas (HTML) como dinámicas (PHP, Python, etc.).
+#### ¿Por qué es necesario?
+Apache es necesario porque es la herramienta que permitirá a tu proyecto Nine Studios ofrecer su página web de manera accesible en línea. Actúa como el servidor que gestionará las solicitudes de los usuarios a la tienda online y mostrará el contenido, como los productos y las páginas interactivas de la tienda. 
+Además, Apache permite la configuración de archivos .htaccess para mejorar la seguridad, redirección y control de tráfico, lo que facilita la administración de la web.
+
+
+#### ¿Dónde hay información oficial?
+>
+> https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04-es#paso-3-comprobar-su-servidor-web
+>
+>
+
+#### Extras
+
+
+### Instalacion Apache:
+>
+> bash
+>
+> sudo apt install apache2 -y
+>
+### Verificar que Apache está corriendo:
+>
+> bash
+>
+> sudo systemctl status apache2
+>
+> Si el servicio está funcionando correctamente, se vera Active: active (running).
+
+Acceder a Apache desde el navegador: Abre un navegador y escribe la IP de tu servidor para verificar que Apache está funcionando (por ejemplo: http://<tu-ip-del-servidor>).
+#### Detalles de la MV
+Sistema operativo: Debian 12
+Recursos recomendados:
+Memoria RAM: 1-2 GB 
+Disco SSD: 10-20 GB de almacenamiento para la instalación de Apache y los archivos web
+Red: Conexión NAT para asegurar la comunicación interna de los servicios dentro de la máquina virtual
+#### Pasos a seguir
+
+#### Incidencias
+
 https://www.digitalocean.com/community/tutorials/como-instalar-el-servidor-web-de-apache-en-debian-9-es
 Tenemos que saltarnos el paso 2 de la web a la hora de explicarlo
+
+
+
 
 # Diario semanal
 
