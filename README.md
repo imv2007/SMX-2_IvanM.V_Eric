@@ -268,24 +268,13 @@ Además, Apache permite la configuración de archivos .htaccess para mejorar la 
 >
 >
 
-#### Extras
-
 
 ### Instalacion Apache:
->
-> bash
->
-> sudo apt install apache2 -y
->
-### Verificar que Apache está corriendo:
->
-> bash
->
-> sudo systemctl status apache2
->
-> Si el servicio está funcionando correctamente, se vera Active: active (running).
+Para instalar poder instalar el apache necesitaremos de dos maquinas virtuales, un cliente y un servidor debian donde podamos guardar nuestro contenido web
 
-Acceder a Apache desde el navegador: Abre un navegador y escribe la IP de tu servidor para verificar que Apache está funcionando (por ejemplo: http://<tu-ip-del-servidor>).
+#### recomendacion personal
+tener instalado ssh para copiar todo el codigo que en el futuro hagamos.
+
 #### Detalles de la MV
 Sistema operativo: Debian 12
 Recursos recomendados:
@@ -293,7 +282,8 @@ Memoria RAM: 1-2 GB
 Disco SSD: 10-20 GB de almacenamiento para la instalación de Apache y los archivos web
 Red: Conexión NAT para asegurar la comunicación interna de los servicios dentro de la máquina virtual
 #### Pasos a seguir
-
+Paso 1: instalar apache2
+Para empezar a instalar apache2 hacemos un sudo apt install apache2
 #### Incidencias
 
 https://www.digitalocean.com/community/tutorials/como-instalar-el-servidor-web-de-apache-en-debian-9-es
