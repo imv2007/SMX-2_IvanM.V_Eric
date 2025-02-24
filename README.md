@@ -127,7 +127,7 @@ El cuarto server y ultimo sera el de MySQL, Este server nos servira para poder t
 _El uso de los ordenadores de casa de los dos es por si no acabamos en clase los contenidos correspodientes en clase_
 
 
-  ## Los sistemas operativos a utilizar
+  ## Los sistemas operativos a utilizar 🌐
   
   
 Linux: Utilizaremos Linux como servidores DNS y DHCP porque pensamos que se nos da mejor y terminaremos mas rápido.
@@ -139,13 +139,13 @@ Truenas: Utilizaremos truenas como servidor de copias de seguridad, porque pensa
 
 
 
-## Diagrama de Gantt Nine studios 
+## Diagrama de Gantt Nine studios  📃
 
 
 ![image](https://github.com/user-attachments/assets/a8f3e368-dafa-439d-a2c6-27c5111c4191)
 
 
-# Guias de uso
+# Guias de uso 📃
 
 
 ## kernel
@@ -310,7 +310,7 @@ Tenemos que saltarnos el paso 2 de la web a la hora de explicarlo
 
 
 
-# Diario semanal
+# Diario semanal 📆
 
 
 #### Desde el 13/01/25 hasta 21/01/25 ✅
@@ -332,7 +332,7 @@ Lo que hicimos durante esta semana fue instalar el pi-hole con servicio tanto de
 #### Desde el 17/02/25 hasta 24/02/25 ✅
 Lo que hemos hecho durante la semana ha sido instalar apache2 y configurarlo para que salga nuestro dominio web con las cosas que nosotros hemos editado, el problema que tuvimos fue, que nos costo un poco entender la estructura del apache y los archivos de este mismo pero pudimos conseguirlo, tan solo quedandonos el php.
 
-## incidencias
+## incidencias ❗❗❗
 **Sudo nano /etc/netplan/00-installer-config.yaml** - El error que hay a la hora de hacer este comando es que no podemos por alguna razón ver el contenido del archivo (básicamente porque no pone nada) entonces estamos mirando de solucionarlo porque sino no podremos hacer el pi-hole. la solución al error es hacer un sudo apt install nano para instalar el servicio y poder editar el archivo
 
 **PC18495** - Este pc nos ha estado dando problemas  a paso del tiempo, con el almacenamiento, el calentamiento del ordenador, con errores al iniciar maquinas de virtual box, incluso perdimos algunas porque se abortaron.
