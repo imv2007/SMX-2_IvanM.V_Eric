@@ -326,10 +326,10 @@ Lo que hemos hecho ha sido organizar nuestras tareas, especificar nuestros objet
 
 lo que hemos estado haciendo esta semana ha sido empezar y terminar la arquitectura del sistema y empezar con los servidores DNS y DHCP. todavia no hemos terminado por diversos problemas con las maquinas anteriores, uno de estos problemas es que no nos detectaba el nano o que el archivo.yaml estaba vacio y no podiamos hacer nada, entonces solo nos quedaria solventar el problema y terminar el pi hole
 
-#### Desde el 11/02/25 hasta el 17/02/25
+#### Desde el 11/02/25 hasta el 17/02/25 ✅
 Lo que hicimos durante esta semana fue instalar el pi-hole con servicio tanto de dns como de dhcp, tuvimos un monton de problemas con las maquinas reales, ya que daban mucha guerra y se calentaban mucho y tuvimos que acabarlas en casa, ya despues en la web de pi-hole editamos todo sobre el dns y dhcp del server.
 
-#### Desde el 17/02/25 hasta 24/02/25
+#### Desde el 17/02/25 hasta 24/02/25 ✅
 Lo que hemos hecho durante la semana ha sido instalar apache2 y configurarlo para que salga nuestro dominio web con las cosas que nosotros hemos editado, el problema que tuvimos fue, que nos costo un poco entender la estructura del apache y los archivos de este mismo pero pudimos conseguirlo, tan solo quedandonos el php.
 
 ## incidencias
