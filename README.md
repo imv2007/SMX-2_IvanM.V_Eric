@@ -281,9 +281,15 @@ Recursos recomendados:
 Memoria RAM: 1-2 GB 
 Disco SSD: 10-20 GB de almacenamiento para la instalación de Apache y los archivos web
 Red: Conexión NAT para asegurar la comunicación interna de los servicios dentro de la máquina virtual
+
 #### Pasos a seguir
 Paso 1: instalar apache2
-Para empezar a instalar apache2 hacemos un sudo apt install apache2, despues para poder comprobar que lo tenemos instalado
+Para empezar a instalar apache2 hacemos un sudo apt install apache2, despues para poder comprobar que lo tenemos instalado hacemos un sudo sytemctl status apache2, tambien para que podamos comprobar de que el servidor esta instalado
+
+Paso 2: comprobar que tenemos una web por defecto
+Para comprobar que tenemos la web ya creada primeramente hacemos un curl -4 icanhazip.com para que nos de una ip publica para buscar por internet y que nos aparezca la web que hemos creado, despues ponemos la direccion ip por el buscador web y nos aparecera creada por defecto
+
+
 #### Incidencias
 
 https://www.digitalocean.com/community/tutorials/como-instalar-el-servidor-web-de-apache-en-debian-9-es
