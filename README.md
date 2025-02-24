@@ -37,6 +37,7 @@ Conocimientos extra (Pi hole).
 * [PI-HOLE](https://docs.pi-hole.net/main/basic-install) - EXPLICACION PI-HOLE
 * [MySQL](https://www.hostinger.es/tutoriales/que-es-mysql) - EXPLICACION MySQL
 * [HTML, CSS, JAVASCRIPT](https://dinahosting.com/blog/entendiendo-la-base-del-desarrollo-web-html-css-y-javascript/) - EXPLICACION DESARROLLO WEB
+* [APACHE](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04-es#paso-5-configurar-hosts-virtuales-recomendado) - EXPLICACION SERVER WEB
 
 
 
