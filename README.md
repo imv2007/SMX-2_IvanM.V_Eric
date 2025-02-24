@@ -283,7 +283,7 @@ Disco SSD: 10-20 GB de almacenamiento para la instalación de Apache y los archi
 Red: Conexión NAT para asegurar la comunicación interna de los servicios dentro de la máquina virtual
 #### Pasos a seguir
 Paso 1: instalar apache2
-Para empezar a instalar apache2 hacemos un sudo apt install apache2
+Para empezar a instalar apache2 hacemos un sudo apt install apache2, despues para poder comprobar que lo tenemos instalado
 #### Incidencias
 
 https://www.digitalocean.com/community/tutorials/como-instalar-el-servidor-web-de-apache-en-debian-9-es
@@ -308,14 +308,11 @@ Lo que hemos hecho ha sido organizar nuestras tareas, especificar nuestros objet
 
 lo que hemos estado haciendo esta semana ha sido empezar y terminar la arquitectura del sistema y empezar con los servidores DNS y DHCP. todavia no hemos terminado por diversos problemas con las maquinas anteriores, uno de estos problemas es que no nos detectaba el nano o que el archivo.yaml estaba vacio y no podiamos hacer nada, entonces solo nos quedaria solventar el problema y terminar el pi hole
 
-#### 11/02/25 
-Hoy intentamos avanzar con los servidores de dns y dhcp pero tuvimos distintos problemas con los pcs de clase porque el estabamos ejecutando la maquina desde el disco duro, entonces acabaremos las maquinas en casa
+#### Desde el 11/02/25 hasta el 17/02/25
+Lo que hicimos durante esta semana fue instalar el pi-hole con servicio tanto de dns como de dhcp, tuvimos un monton de problemas con las maquinas reales, ya que daban mucha guerra y se calentaban mucho y tuvimos que acabarlas en casa, ya despues en la web de pi-hole editamos todo sobre el dns y dhcp del server.
 
-#### 12/02/25
-El dia anterior lo que hice en casa fue instalar el pi-hole con todo el procedimiento necesario, y hoy en clase lo que hemos hecho ha sido terminar de instalarlo, configurarlo y probarlo en un equipo cliente 
-
-#### 17/02/25
-Hoy lo que hemos hecho ha sido terminar de escribir en la memoria todo lo de Pihole y empezar a instalar apache
+#### Desde el 17/02/25 hasta 24/02/25
+Lo que hemos hecho durante la semana ha sido instalar apache2 y configurarlo para que salga nuestro dominio web con las cosas que nosotros hemos editado, el problema que tuvimos fue, que nos costo un poco entender la estructura del apache y los archivos de este mismo pero pudimos conseguirlo, tan solo quedandonos el php.
 
 ## incidencias
 **Sudo nano /etc/netplan/00-installer-config.yaml** - El error que hay a la hora de hacer este comando es que no podemos por alguna razón ver el contenido del archivo (básicamente porque no pone nada) entonces estamos mirando de solucionarlo porque sino no podremos hacer el pi-hole. la solución al error es hacer un sudo apt install nano para instalar el servicio y poder editar el archivo
