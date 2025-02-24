@@ -289,6 +289,13 @@ Para empezar a instalar apache2 hacemos un sudo apt install apache2, despues par
 Paso 2: comprobar que tenemos una web por defecto
 Para comprobar que tenemos la web ya creada primeramente hacemos un curl -4 icanhazip.com para que nos de una ip publica para buscar por internet y que nos aparezca la web que hemos creado, despues ponemos la direccion ip por el buscador web y nos aparecera creada por defecto
 
+Paso 3: configurar nuestra web
+Para empezar, creamos un dominio web con sudo mkdir /var/www/your_domain.
+Despues para darle permisdos de lectura y usuario hacemos un sudo chown -R $USER:$USER /var/www/your_domain y despues un sudo chmod -R 755 /var/www/your_domain.
+Posteriormente para editar el archivo de nuestra web, hacemos un sudo nano /var/www/your_domain/index.html.
+Antes de nada creamos el archivo.conf para que podamos hacer que nuestra web sea visible en el buscador, despues para editar el dominio (tiene que ser copiado del por defecto) hacemos un sudo nano /etc/apache2/sites-available/your_domain.conf añadiendo nuestro nombre de web personalizado.
+despues para habilitar la web hacemos un sudo a2ensite your_domain.conf y para deshabilitar la web por defecto hacemos un sudo a2dissite 000-default.conf.
+Por ultimo para comprobar que nuestra web funcione hacemos un sudo apache2ctl configtest, que cuando lo hagamos deberia de dar un syntax OK y despues reiniciamos el servidor apache con sudo systemctl restart apache2.
 
 #### Incidencias
 
