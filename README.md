@@ -167,16 +167,16 @@ Kernel es necesario porque para poder instalar pi-hole necesitamos de actualizar
 
 #### Pasos a seguir:
 Paso 1
-Comprobar la Version del kernel con uname -r
+Comprobar la Version del kernel con **_uname -r_**
 
 Paso 2
-Actualizar los paquetes con sudo apt update && Sudo apt upgrade -y, despues reiniciar con un reboot y comprobar la version nueva para verificar.
+Actualizar los paquetes con **_sudo apt update && Sudo apt upgrade -y_**, despues reiniciar con **_reboot_** y comprobar la version nueva para verificar.
 
 Paso 3
-Instalar el kernel desde ubuntu mainline con sudo add-apt-repository ppa:cappelikan/ppa -y, despues sudo apt update y sudo apt install mainline -y y hacemos por ultimo un mainline --install-latest.
+Instalar el kernel desde ubuntu mainline con **_sudo add-apt-repository ppa:cappelikan/ppa -y_**, despues **_sudo apt update y sudo apt install mainline -y_** y hacemos por ultimo un **_mainline --install-latest_**.
 
 Paso 4 
-Comprobar de que lo tenemos todo correcto con sudo reboot y uname -r
+Comprobar de que lo tenemos todo correcto con **_sudo reboot y uname -r_**
 
 
 
@@ -211,12 +211,12 @@ Para crear la red nat lo que hay que hacer es, ir a las herramientas de virtualb
 
 Paso 2
 Instalacion del Curl:
-Para empezar, se actualizan los paquetes con sudo apt update y sudo apt upgrade, despues sudo apt install curl -y Para instalar el curl, despues hacemos un curl -sSL https://install.pi-hole.net | bash Para instalar Automaticamente el pi-hole, Esto abrira el instalador interactivo, despues
+Para empezar, se actualizan los paquetes con sudo apt update y sudo apt upgrade, despues sudo apt install curl -y Para instalar el curl, despues hacemos un **_curl -sSL https://install.pi-hole.net | bash_** Para instalar Automaticamente el pi-hole, Esto abrira el instalador interactivo, despues
 Elige un servidor DNS: Puedes seleccionar Cloudflare (1.1.1.1), Google (8.8.8.8), Quad9, OpenDNS, etc. (selecciona google y cloudfare)
 Selecciona las listas de bloqueo predeterminadas (Dejalo por defecto).
 Configura una IP estática para evitar problemas en la red, por ejemplo la de tu servidor.
 Habilita la interfaz web para gestionar Pi-hole desde el navegador.
-y por ultimo si quieres cambiar la contraseña hazlo con pihole -a -p
+y por ultimo si quieres cambiar la contraseña hazlo con **_pihole -a -p_**
 
 Paso 3
 configuracion de la web:
@@ -285,23 +285,23 @@ Red: Conexión NAT para asegurar la comunicación interna de los servicios dentr
 
 #### Pasos a seguir
 Paso 1: instalar apache2
-Para empezar a instalar apache2 hacemos un sudo apt install apache2, despues para poder comprobar que lo tenemos instalado hacemos un sudo sytemctl status apache2, tambien para que podamos comprobar de que el servidor esta instalado
+Para empezar a instalar apache2 hacemos un **_sudo apt install apache2_**, despues para poder comprobar que lo tenemos instalado hacemos un **_sudo sytemctl status apache2_**, tambien para que podamos comprobar de que el servidor esta instalado
 
 Paso 2: comprobar que tenemos una web por defecto
-Para comprobar que tenemos la web ya creada primeramente hacemos un curl -4 icanhazip.com para que nos de una ip publica para buscar por internet y que nos aparezca la web que hemos creado, despues ponemos la direccion ip por el buscador web y nos aparecera creada por defecto
+Para comprobar que tenemos la web ya creada primeramente hacemos un **_curl -4 icanhazip.com_** para que nos de una ip publica para buscar por internet y que nos aparezca la web que hemos creado, despues ponemos la direccion ip por el buscador web y nos aparecera creada por defecto
 
 Paso 3: configurar nuestra web
-Para empezar, creamos un dominio web con sudo mkdir /var/www/your_domain.
+Para empezar, creamos un dominio web con **_sudo mkdir /var/www/your_domain_**.
 
-Despues para darle permisdos de lectura y usuario hacemos un sudo chown -R $USER:$USER /var/www/your_domain y despues un sudo chmod -R 755 /var/www/your_domain.
+Despues para darle permisdos de lectura y usuario hacemos un **_sudo chown -R $USER:$USER /var/www/your_domain_** y despues un **_sudo chmod -R 755 /var/www/your_domain_**.
 
-Posteriormente para editar el archivo de nuestra web, hacemos un sudo nano /var/www/your_domain/index.html.
+Posteriormente para editar el archivo de nuestra web, hacemos un **_sudo nano /var/www/your_domain/index.html_**.
 
-Antes de nada creamos el archivo.conf para que podamos hacer que nuestra web sea visible en el buscador, despues para editar el dominio (tiene que ser copiado del por defecto) hacemos un sudo nano /etc/apache2/sites-available/your_domain.conf añadiendo nuestro nombre de web personalizado.
+Antes de nada creamos el archivo.conf para que podamos hacer que nuestra web sea visible en el buscador, despues para editar el dominio (tiene que ser copiado del por defecto) hacemos un **_sudo nano /etc/apache2/sites-available/your_domain.conf_** añadiendo nuestro nombre de web personalizado.
 
-despues para habilitar la web hacemos un sudo a2ensite your_domain.conf y para deshabilitar la web por defecto hacemos un sudo a2dissite 000-default.conf.
+despues para habilitar la web hacemos un **_sudo a2ensite your_domain.conf_** y para deshabilitar la web por defecto hacemos un **_sudo a2dissite 000-default.conf_**.
 
-Por ultimo para comprobar que nuestra web funcione hacemos un sudo apache2ctl configtest, que cuando lo hagamos deberia de dar un syntax OK y despues reiniciamos el servidor apache con sudo systemctl restart apache2.
+Por ultimo para comprobar que nuestra web funcione hacemos un **_sudo apache2ctl configtest_**, que cuando lo hagamos deberia de dar un **_syntax OK_** y despues reiniciamos el servidor apache con **_sudo systemctl restart apache2_**.
 
 #### Incidencias
 
