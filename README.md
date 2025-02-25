@@ -340,3 +340,9 @@ Lo que hemos hecho durante la semana ha sido instalar apache2 y configurarlo par
 **web pi-Hole** - lo que nos sucedió fue que cuando instalamos el pi-hole con la actualización del kernel, miramos con la guía de acceder a la web de pi-hole pero con la dirección del servidor, pero se hace simplemente poniendo la ip anfitrión de la red nat con un /admin un ejemplo seria: (100.1.1.1/admin) 
 
 
+# Esquema de ip de maquinas
+
+Pi-hole
+Apache
+
+
