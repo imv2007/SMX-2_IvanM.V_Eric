@@ -259,8 +259,7 @@ Introducción al servicio
 #### ¿Qué es?
 Apache es un servidor web de código abierto que permite alojar sitios web y aplicaciones. Es uno de los servidores web más populares y ampliamente utilizados en la web debido a su fiabilidad, flexibilidad y capacidad para manejar tráfico elevado. Apache puede servir tanto páginas estáticas (HTML) como dinámicas (PHP, Python, etc.).
 #### ¿Por qué es necesario?
-Apache es necesario porque es la herramienta que permitirá a tu proyecto Nine Studios ofrecer su página web de manera accesible en línea. Actúa como el servidor que gestionará las solicitudes de los usuarios a la tienda online y mostrará el contenido, como los productos y las páginas interactivas de la tienda. 
-Además, Apache permite la configuración de archivos .htaccess para mejorar la seguridad, redirección y control de tráfico, lo que facilita la administración de la web.
+ Apache es esencialmente necesario porque todo lo que hagamos en la web se almacenara en el server apache y tambien esto es importante para poder tener una web con personalidad propia a nivel de creatividad
 
 
 #### ¿Dónde hay información oficial?
