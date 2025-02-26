@@ -248,7 +248,7 @@ DHCP es necesario Porque el cliente necesita una ip que este en la misma red y p
 
 > **SOBRE DHCP**:
 > 
-> https://es.wikipedia.org/wiki/DHCP
+> https://https://www.cisco.com/c/en/us/td/docs/iosxr/ncs5500/l2vpn/63x/b-l2vpn-cg/b-l2vpn-cg_chapter_010.html
 >
 > https://www.digitalocean.com/community/tutorials/what-is-dhcp
 >
@@ -287,7 +287,7 @@ Apache es un servidor web de código abierto que permite alojar sitios web y apl
 Para instalar poder instalar el apache necesitaremos de dos maquinas virtuales, un cliente y un servidor debian donde podamos guardar nuestro contenido web
 
 #### recomendacion personal
-tener instalado ssh para copiar todo el codigo que en el futuro hagamos.
+Tener instalado ssh para copiar todo el codigo que en el futuro hagamos.
 
 #### Detalles de la MV
 Sistema operativo: Debian 12
