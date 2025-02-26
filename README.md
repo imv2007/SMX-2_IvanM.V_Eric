@@ -206,21 +206,40 @@ Instalaremos Dns des de pi-hole en una maquina virtual de ubuntu server, despues
 Red NAT: NatNST 192.168.1.0
 #### Pasos a seguir:
 Paso 1
+
 Creacion de la red nat:
-Para crear la red nat lo que hay que hacer es, ir a las herramientas de virtualbox, ir a Redes NAT, Crear una red nat con una direccion ip la cual este en la misma red la cual este el servidor, despues tienes que ir al reenvio de puertos, crear uno nuevo, en la direccion anfitrion pones la ip de tu ordenador, en el puerto pones el puerto 80 y en la direccion invitado pones la direccion que tu quieras, pero que este en la misma red que la red nat y la maquina en cuestion.
+
+Para crear la red nat lo que hay que hacer es, ir a las herramientas de virtualbox, ir a Redes NAT, Crear una red nat con una direccion ip la cual este en la misma red la cual este el servidor, despues tienes que ir al reenvio de puertos, crear uno nuevo, en la 
+
+direccion anfitrion pones la ip de tu ordenador, en el puerto pones el puerto 80 y en la direccion invitado pones la direccion que tu quieras, pero que este en la misma red que la red nat y la maquina en cuestion.
+
 
 Paso 2
+
 Instalacion del Curl:
-Para empezar, se actualizan los paquetes con sudo apt update y sudo apt upgrade, despues sudo apt install curl -y Para instalar el curl, despues hacemos un **_curl -sSL https://install.pi-hole.net | bash_** Para instalar Automaticamente el pi-hole, Esto abrira el instalador interactivo, despues
+
+Para empezar, se actualizan los paquetes con sudo apt update y sudo apt upgrade, despues sudo apt install curl -y Para instalar el curl, despues hacemos un **_curl -sSL https://install.pi-hole.net | bash_** Para instalar Automaticamente el pi-hole, Esto abrira el
+
+instalador interactivo, despues
+
 Elige un servidor DNS: Puedes seleccionar Cloudflare (1.1.1.1), Google (8.8.8.8), Quad9, OpenDNS, etc. (selecciona google y cloudfare)
+
 Selecciona las listas de bloqueo predeterminadas (Dejalo por defecto).
+
 Configura una IP estática para evitar problemas en la red, por ejemplo la de tu servidor.
+
 Habilita la interfaz web para gestionar Pi-hole desde el navegador.
+
 y por ultimo si quieres cambiar la contraseña hazlo con **_pihole -a -p_**
 
+
 Paso 3
+
 configuracion de la web:
-Para entrar a la web de pihole tienes que entrar poniendo tu ip anfitrion de la red nat /admin, ejemplo: (100.77.20.22/admin), entonces una vez entras en la web, de las a local dns y despues a dns records, en dns records tienes que poner el nombre de tu dominio y la ip de tu servidor.
+
+Para entrar a la web de pihole tienes que entrar poniendo tu ip anfitrion de la red nat /admin, ejemplo: (100.77.20.22/admin), entonces una vez entras en la web, de las a local dns y despues a dns records, en dns records tienes que poner el nombre de tu dominio y la ip 
+
+de tu servidor.
 
 
 ## DHCP
