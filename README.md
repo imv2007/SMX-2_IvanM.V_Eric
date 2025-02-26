@@ -18,7 +18,7 @@ Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pagi
 El publico objetivo al que nos dirigimos, es a gente joven entre 14 años a 35 años, ya que nos queremos adaptar al mercado de la moda y actualizaros según los estándares de moda, tanto de la gente como de otras marcas que nos diferencian. 
 
 #### Modulos de referencia
-los módulos de referencia del ciclo que necesitaremos para este proyecto son: 
+Los módulos de referencia del ciclo que necesitaremos para este proyecto son: 
 
 Sistemas operativos en red (Maquinas virtuales linux...) 
 
@@ -32,7 +32,7 @@ Conocimientos extra (Pi hole).
 
 ###  _contenido extra_
 * [DHCP](https://www.redeszone.net/tutoriales/internet/que-es-protocolo-dhcp/) - EXPLICACION DHCP
-* [DNS](https://www.ibm.com/es-es/topics/dns-protocol) - EXPLICACION DNS
+* [DNS](https://www.isc.org/bind/) - EXPLICACION DNS
 * [PHP](https://www.php.net/manual/es/intro-whatis.php) - EXPLICACION PHP
 * [PI-HOLE](https://docs.pi-hole.net/main/basic-install) - EXPLICACION PI-HOLE
 * [MySQL](https://www.hostinger.es/tutoriales/que-es-mysql) - EXPLICACION MySQL
@@ -62,13 +62,10 @@ Truenas es útil para poder hacer copias de seguridad de nuestra información co
 
 
 ## Listado de tareas 📋
-**_Especificar listado de tareas_**
 
 **_Aprender HTML, CSS_**
 
 **_Aprender JavaScript_**
-
-**_Aprender PHP, MYSQL_**
 
 **_Aprender XAMPP_**
 
@@ -76,15 +73,13 @@ Truenas es útil para poder hacer copias de seguridad de nuestra información co
 
 **_Hacer la memoria cada día_**
 
-**_Aprender pi hole_**
-
-
+**_Hacer pfSense_**
 
 ## Asignación de roles y responsabilidades del equipo ⭐
 
 |           Iván                  |                 Eric                 | 
 | ------------------------------- | -------------------------------------|
-| Creación y gestión de sistemas  | Diseño web y gestor de bases de datos|
+|Creación y gestión de sistemas  | Diseño web y gestor de bases de datos|
 |Organización, GitHub, trello, Aprender contents anteriormente especificados estar pendiente de trello y GitHub cuando este ausente | GitHub, trello, ayudar a poner al día a Iván cuando este ausente |
 
 
@@ -191,7 +186,7 @@ Es necesario, porque necesitamos de un dominio para nuestra pagina web y para qu
 #### ¿Dónde hay información oficial? 
 > **SOBRE DNS**:
 > 
-> https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio
+> https://www.isc.org/bind/
 > 
 > https://tools.ietf.org/html/rfc1034
 > 
