@@ -155,7 +155,7 @@ Kernel es necesario porque para poder instalar pi-hole necesitamos de actualizar
 #### ¿Dónde hay información oficial? 
 > **SOBRE Kernel**:
 > 
-> https://es.wikipedia.org/wiki/N%C3%BAcleo_(inform%C3%A1tica)
+> https:www.esedsl.com/blog/que-es-un-kernel-en-informatica-y-su-importancia-para-las-empresas
 > 
 > https://www.geeknetic.es/Kernel/que-es-y-para-que-sirve
 > 
