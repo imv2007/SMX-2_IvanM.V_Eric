@@ -195,12 +195,12 @@ Es necesario, porque necesitamos de un dominio para nuestra pagina web y para qu
 Instalaremos Dns des de pi-hole en una maquina virtual de ubuntu server, despues de instalar la maquina y el pi-hole, configuraremos este mismo para que pueda tener conectividad con el cliente
 
 #### Detalles de la MV:
-4096 Mb de ram
-3 Procesadores
-25 GB de Memoria SSD
-Red NAT: NatNST 192.168.1.0
+
+|     Material      |   Componentes    | sistema operativo     |
+| :--- |     :---:        |    ---:  |
+| 2 PC CLASE | Intel Core i7 11700, 1 TB de Memoria SSD, 16 GB RAM ddr4 UHD graphics 750 | Windows , Máquinas virtuales Ubuntu |
 #### Pasos a seguir:
-Paso 1
+_Paso 1_
 
 Creacion de la red nat:
 
@@ -209,7 +209,7 @@ Para crear la red nat lo que hay que hacer es, ir a las herramientas de virtualb
 en la direccion anfitrion pones la ip de tu ordenador, en el puerto pones el puerto 80 y en la direccion invitado pones la direccion que tu quieras, pero que este en la misma red que la red nat y la maquina en cuestion.
 
 
-Paso 2
+_Paso 2_
 
 Instalacion del Curl:
 
@@ -228,7 +228,7 @@ Habilita la interfaz web para gestionar Pi-hole desde el navegador.
 y por ultimo si quieres cambiar la contraseña hazlo con **_pihole -a -p_**
 
 
-Paso 3
+_Paso 3_
 
 configuracion de la web:
 
