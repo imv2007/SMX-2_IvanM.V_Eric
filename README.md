@@ -316,6 +316,25 @@ despues para habilitar la web hacemos un **_sudo a2ensite your_domain.conf_** y 
 
 Por ultimo para comprobar que nuestra web funcione hacemos un **_sudo apache2ctl configtest_**, que cuando lo hagamos deberia de dar un **_syntax OK_** y despues reiniciamos el servidor apache con **_sudo systemctl restart apache2_**.
 
+## Pfsense
+#### ¿Qué es?
+
+#### ¿Por qué es necesario?
+
+#### ¿Dónde hay información oficial?
+>
+> https://www.pfsense.org/
+>
+> https://www.gugms.net/pfsense
+>
+#### Recomendacion personal
+
+#### Detalles de la MV
+
+#### Pasos a seguir
+
+
+
 #### Incidencias
 
 https://www.digitalocean.com/community/tutorials/como-instalar-el-servidor-web-de-apache-en-debian-9-es
