@@ -357,8 +357,6 @@ ofrece muchas funcionalidades avanzadas para gestionar y proteger redes, lo cual
 
 #### Incidencias
 
-https://www.digitalocean.com/community/tutorials/como-instalar-el-servidor-web-de-apache-en-debian-9-es
-Tenemos que saltarnos el paso 2 de la web a la hora de explicarlo
 
 
 
