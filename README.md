@@ -365,6 +365,15 @@ TrueNAS es un sistema operativo basado en FreeBSD que da servicios de almacenami
 #### ¿Por qué es necesario?
 TrueNAS es necesario para que nosotros podamos a nivel de empresa guardar toda nuestra informacion porque si sucede un accidente o nos roban toda nuestra informacion no podremos recuperar nuestra informacion, es por eso que usamos truenas, para que nuestra informacion este a salvo.
 
+#### ¿Dónde hay información oficial?
+>
+> https://www.truenas.com
+> 
+> https://www.itelca.com.co/truenas-vs-freenas-y-por-que-deberia-actualizar/
+>
+
+#### Detalles de la MV
+
 # Diario semanal 📆
 
 
