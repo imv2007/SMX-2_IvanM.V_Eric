@@ -352,7 +352,25 @@ ofrece muchas funcionalidades avanzadas para gestionar y proteger redes, lo cual
 #### Detalles de la MV
 
 #### Pasos a seguir
-Paso 1:
+Necesitramos una imagen ISO para la máquina virtual. La imagen ISO de pfSense se puede descargar desde la página oficial: https://www.pfsense.org/download/
+- Seleccionaremos AMD64 ISO.
+![image](https://github.com/user-attachments/assets/384da588-b892-494c-883b-e1caa2c6119c)
+- Cuando se complete la descarga, abriremos la maquina virtual y haremos clic en nuevo
+- Asignaremos un nombre para la máquina virtual, y pondremos la imagen ISO que descargamos, el tipo pondremos BSD y la versión FreeBSD de 64 bits.
+- la asignación de recursos, como la memoria base y el disco duro, debe hacerse según los requisitos.
+Luego de asignar, al final  haremos click en "Finalizar"
+
+![image](https://github.com/user-attachments/assets/126769ed-32d1-431a-9f48-0a2e76d2595d)
+
+
+![image](https://github.com/user-attachments/assets/45a17fde-23fb-4029-9aa6-fc94a1cbdda8)
+
+- cuando le demos a finalizar le  hacemos clic en Configuración. 
+- La configuración de red es importante para el firewall. Seleccionaremos la red y habilitaremos los adaptadores 1 y 2. Configurando el adaptador 1 en adaptodr puente . y el adaptador 2 en red nat.
+  
+![image](https://github.com/user-attachments/assets/b2543bb7-8814-4a7d-b11b-0be4044b6bde)
+![image](https://github.com/user-attachments/assets/0fefe6d2-580c-4188-a292-25a2f498ff49)
+- iniciamos la máquina virtual  y procederemos a instalar pfsense.
 
 
 #### Incidencias
