@@ -359,7 +359,11 @@ Paso 1:
 
 
 ## Truenas
+#### ¿Qué es?
+TrueNAS es un sistema operativo basado en FreeBSD que da servicios de almacenamiento en red y proporciona copias de seguridad mediante rsync.
 
+#### ¿Por qué es necesario?
+TrueNAS es necesario para que nosotros podamos a nivel de empresa guardar toda nuestra informacion porque si sucede un accidente o nos roban toda nuestra informacion no podremos recuperar nuestra informacion, es por eso que usamos truenas, para que nuestra informacion este a salvo.
 
 # Diario semanal 📆
 
