@@ -352,7 +352,7 @@ ofrece muchas funcionalidades avanzadas para gestionar y proteger redes, lo cual
 #### Detalles de la MV
 
 #### Pasos a seguir
-
+Paso 1:
 
 
 #### Incidencias
