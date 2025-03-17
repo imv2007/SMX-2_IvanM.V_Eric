@@ -392,6 +392,11 @@ TrueNAS es necesario para que nosotros podamos a nivel de empresa guardar toda n
 
 #### Detalles de la MV
 
+|     Material      |   Componentes    |
+| :--- |     :---:        | 
+| 2 PC CLASE | Intel Core i7 11700, 1 TB de Memoria SSD, 16 GB RAM ddr4 UHD graphics 750 |
+
+
 # Diario semanal 📆
 
 
