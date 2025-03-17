@@ -369,8 +369,58 @@ Luego de asignar, al final  haremos click en "Finalizar"
 - La configuración de red es importante para el firewall. Seleccionaremos la red y habilitaremos los adaptadores 1 y 2. Configurando el adaptador 1 en adaptodr puente . y el adaptador 2 en red nat.
   
 ![image](https://github.com/user-attachments/assets/b2543bb7-8814-4a7d-b11b-0be4044b6bde)
+
 ![image](https://github.com/user-attachments/assets/0fefe6d2-580c-4188-a292-25a2f498ff49)
+
 - iniciamos la máquina virtual  y procederemos a instalar pfsense.
+  
+![image](https://github.com/user-attachments/assets/77258cd9-ac39-4085-b2fd-0bec1e11eb3b)
+
+- clicamos en instalar pfsense
+  
+![image](https://github.com/user-attachments/assets/271e62a3-45a6-4258-83af-7d3717638287)
+
+- Configurando la configuración de red. Haga clic en ok y continamos
+![image](https://github.com/user-attachments/assets/042d6f56-b8a0-451e-bc31-29cb6c489795)
+- Hacemos clic en Instalar CE
+
+![image](https://github.com/user-attachments/assets/00e034e2-f977-4457-978b-ba018a2cc43c)
+
+
+- Seleccionamos el disco para la instalación.
+![image](https://github.com/user-attachments/assets/40434bdc-264a-4fdd-8bba-0101135ec94c)
+
+- Seleccionamos la versión actual de pfSense CE, luego haremos clic en Aceptar y contiuar
+![image](https://github.com/user-attachments/assets/fbc2aa27-3a56-4be5-afa0-12ffeb86373a)
+
+- Este proceso de instalación tardará un tiempo.
+
+- cuando este listo aceptamos y reiniciamos el sistema
+![image](https://github.com/user-attachments/assets/5f6cf4dc-ff69-4337-b895-52b154042822)
+![image](https://github.com/user-attachments/assets/ec5f7c21-38dc-46a9-b749-4a965b4c53a8)
+
+- Después de reiniciar, es importante eliminar la imagen adjunta, ya que revierte el proceso de instalación y vuelve a generar la misma pregunta. Por lo tanto, lo que haremos primero es apagar la amquina virtual, y vamos a la configuracion , y eliminamos  la imagen ISO 
+luego la volvemos a iniciar.
+
+- Reiniciamos la máquina virtual.
+
+- Y ya estaria listo, La IP está configurada.
+- ![image](https://github.com/user-attachments/assets/aebdb669-af17-4c7e-9dac-fcb67c68f84c)
+
+- Ahora, accederemos a la máquina Ubuntu y realizaremos el resto de la configuración.
+
+**Ubuntu:**
+
+nos aseguramos de que el adaptador del Ubuntu 1 esté conectado a la red interna (LAN).
+Verificamos la dirección IP con el comando *ip a*
+Abrimos el navegador y usamos la dirección IP del firewall de la LAN.
+Inicie sesión en el sistema con las credenciales predeterminadas de pfsense.
+
+
+
+
+
+
 
 
 #### Incidencias
