@@ -10,12 +10,12 @@
 
 Nine studios (marca de ropa personal con bases de datos MYSQL y pagina web dinámica)
 
- ### Introduccion
+ ### Introducción
 Nine studios es, una marca de ropa la cual se dedica a vender ropa mediante una tienda online, para crear nuestra tienda online utilizaremos HTML, CSS, JavaScript, PHP y MySQL, todo este contenido sera posible de aprender y aplicar gracias a los profesores, que nos enseñaran a como hacerlo. 
 
 Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pagina web y poder crear nuestra propia marca de ropa. 
 
-El publico objetivo al que nos dirigimos, es a gente joven entre 14 años a 35 años, ya que nos queremos adaptar al mercado de la moda y actualizaros según los estándares de moda, tanto de la gente como de otras marcas que nos diferencian. 
+El público objetivo al que nos dirigimos, es a gente joven entre 14 años a 35 años, ya que nos queremos adaptar al mercado de la moda y actualizaros según los estándares de moda, tanto de la gente como de otras marcas que nos diferencian. 
 
 #### Módulos de referencia
 Los módulos de referencia del ciclo que necesitaremos para este proyecto son: 
@@ -397,6 +397,7 @@ Luego de asignar, al final  haremos click en "Finalizar"
 
 - cuando este listo aceptamos y reiniciamos el sistema
 ![image](https://github.com/user-attachments/assets/5f6cf4dc-ff69-4337-b895-52b154042822)
+
 ![image](https://github.com/user-attachments/assets/ec5f7c21-38dc-46a9-b749-4a965b4c53a8)
 
 - Después de reiniciar, es importante eliminar la imagen adjunta, ya que revierte el proceso de instalación y vuelve a generar la misma pregunta. Por lo tanto, lo que haremos primero es apagar la amquina virtual, y vamos a la configuracion , y eliminamos  la imagen ISO 
@@ -405,7 +406,7 @@ luego la volvemos a iniciar.
 - Reiniciamos la máquina virtual.
 
 - Y ya estaria listo, La IP está configurada.
-- ![image](https://github.com/user-attachments/assets/aebdb669-af17-4c7e-9dac-fcb67c68f84c)
+ ![image](https://github.com/user-attachments/assets/aebdb669-af17-4c7e-9dac-fcb67c68f84c)
 
 - Ahora, accederemos a la máquina Ubuntu y realizaremos el resto de la configuración.
 
@@ -417,6 +418,33 @@ Abrimos el navegador y usamos la dirección IP del firewall de la LAN.
 Inicie sesión en el sistema con las credenciales predeterminadas de pfsense.
 
 ## OpenVPN en pfSense
+OpenVPN es una software libre que permite levantar una red privada virtual (VPN). Está basado en SSL/TLS, por lo tanto, permite crear certificados digitales de autenticación de clientes, así como autenticarnos con usuarios y contraseñas. 
+Todo el tráfico es cifrado sin importar si la red es cableada (Ethernet) o inalámbrica (802.11), con cifrado WEP/WPA/WPA2 o sin cifrar.
+
+- Instalar el plugin OpenVPN client
+Lo primero es descargar el paquete openvpn-client-export y para ello vamos a System - Package Manager - Available Packages y buscamos el paquete openvpn-client-export y pulsamos en Install.
+
+![image](https://github.com/user-attachments/assets/d361c2d4-f9fa-4471-931f-0b9cadf2e76a)
+
+
+#### Crear la Autoridad Certificadora (CA)
+Una CA (Autoridad de Certificación) es una entidad confiable que se encarga de emitir y gestionar certificados digitales necesarios para realizar transacciones seguras y firmas electrónicas
+Accedemos a la interfaz de pfSense y vamos a System - Certificate Manager, luego hacemos clic en Add.
+Generamos el certificado dejando las configuraciones predeterminadas, pero asignando un nombre distintivo.
+
+- Creamos el certificado manteniendo casi todas las opciones por defecto y asignando un nombre.
+  
+| opcion  | descripcion |
+| ------------- | ------------- |
+| Descriptive name  | OpenVPN_CA  |
+| Common name | OpenVPN_CA  |
+
+
+Una vez realizado los cambios y guardando nos aparece nuestro certificado:
+![image](https://github.com/user-attachments/assets/675148c9-498e-44eb-a13f-ddc4e96b24b6)
+
+#### Crear el certificado para el servidor OpenVPN
+En la sección System - Certificates, seleccionamos Add Certificate para crear uno nuevo.
 
 
 
