@@ -17,7 +17,7 @@ Los objetivos que tenemos con este proyecto son, poder tener nuestra propia pagi
 
 El publico objetivo al que nos dirigimos, es a gente joven entre 14 años a 35 años, ya que nos queremos adaptar al mercado de la moda y actualizaros según los estándares de moda, tanto de la gente como de otras marcas que nos diferencian. 
 
-#### Modulos de referencia
+#### Módulos de referencia
 Los módulos de referencia del ciclo que necesitaremos para este proyecto son: 
 
 Sistemas operativos en red (Maquinas virtuales linux...) 
@@ -411,10 +411,12 @@ luego la volvemos a iniciar.
 
 **Ubuntu:**
 
-nos aseguramos de que el adaptador del Ubuntu 1 esté conectado a la red interna (LAN).
+nos aseguramos de que el adaptador del Ubuntu 1 esté conectado a la red interna.
 Verificamos la dirección IP con el comando *ip a*
 Abrimos el navegador y usamos la dirección IP del firewall de la LAN.
 Inicie sesión en el sistema con las credenciales predeterminadas de pfsense.
+
+## OpenVPN en pfSense
 
 
 
