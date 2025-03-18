@@ -470,6 +470,9 @@ Lo que hicimos durante esta semana fue instalar el pi-hole con servicio tanto de
 #### Desde el 17/02/25 hasta 24/02/25 ✅
 Lo que hemos hecho durante la semana ha sido instalar apache2 y configurarlo para que salga nuestro dominio web con las cosas que nosotros hemos editado, el problema que tuvimos fue, que nos costo un poco entender la estructura del apache y los archivos de este mismo pero pudimos conseguirlo, tan solo quedandonos el php.
 
+#### Desde el 11/03/25 hasta 18/03/25 ✅
+Lo que hicimos durante esta semana ha sido acabar el pfsense con openvpn, terminar de probar este mismo y empezar a hacer el truenas con freebsd
+
 ## incidencias ❗❗❗
 **Sudo nano /etc/netplan/00-installer-config.yaml** - El error que hay a la hora de hacer este comando es que no podemos por alguna razón ver el contenido del archivo (básicamente porque no pone nada) entonces estamos mirando de solucionarlo porque sino no podremos hacer el pi-hole. la solución al error es hacer un sudo apt install nano para instalar el servicio y poder editar el archivo
 
