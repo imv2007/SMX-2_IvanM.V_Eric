@@ -478,6 +478,11 @@ TrueNAS es necesario para que nosotros podamos a nivel de empresa guardar toda n
 | Discos duros | Raid 1 |
 | Memoria RAM | 4096 MB |
 
+
+
+## PHP
+![image](https://github.com/user-attachments/assets/758f7f47-003b-4967-92de-40d6166e02af)
+
 # Diario semanal 📆
 
 
