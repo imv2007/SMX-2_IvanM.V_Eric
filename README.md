@@ -548,7 +548,7 @@ Una vez conectados, podemos comprobar la conexion realizando pruebas, como acced
   
 ![image](https://github.com/user-attachments/assets/cf5b8421-124c-4659-ba0c-9e6b4e45f6cd)
 
-Este proceso establece una conexión VPN básica. Para mejorar la configuración, podríamos proceder a realizar pruebas más avanzadas, como configurar el acceso de un usuario a un equipo de la red detrás del firewall.
+Ya podemos comprobar la conexión al firewall.  Claramente que nos falta mucho. Se trata de una conexión básica
 
 
 
