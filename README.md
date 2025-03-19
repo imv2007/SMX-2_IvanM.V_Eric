@@ -428,7 +428,7 @@ Lo primero es descargar el paquete openvpn-client-export y para ello vamos a Sys
 ![image](https://github.com/user-attachments/assets/d361c2d4-f9fa-4471-931f-0b9cadf2e76a)
 
 
-#### Crear la Autoridad Certificadora (CA)
+### Crear la Autoridad Certificadora 
 Una CA (Autoridad de Certificación) es una entidad confiable que se encarga de emitir y gestionar certificados digitales necesarios para realizar transacciones seguras y firmas electrónicas
 Accedemos a la interfaz de pfSense y vamos a System - Certificate Manager, luego hacemos clic en Add.
 Generamos el certificado dejando las configuraciones predeterminadas, pero asignando un nombre distintivo.
@@ -444,7 +444,7 @@ Generamos el certificado dejando las configuraciones predeterminadas, pero asign
 Una vez realizado los cambios y guardando nos aparece nuestro certificado:
 ![image](https://github.com/user-attachments/assets/675148c9-498e-44eb-a13f-ddc4e96b24b6)
 
-#### Crear el certificado para el servidor OpenVPN
+### Crear el certificado para el servidor OpenVPN
 En la sección System - Certificates, seleccionamos Add Certificate para crear uno nuevo.
 
 | opcion  | descripcion |
@@ -458,9 +458,9 @@ Aquí nos tiene que aparecer nuestra CA previamente creada
 
 ![image](https://github.com/user-attachments/assets/b56cb520-0d2e-4c8b-9f41-39fa09480a3a)
 
-#### Configuración del servidor OpenVPN
+### Configuración del servidor OpenVPN
 
-Ahora, configuramos el servidor OpenVPN el cual los clientes se conectarán. Para ello, vamos a VPN - OpenVPN - Servers y hacemos clic en Add. Rellenamos los siguientes campos:
+- Ahora, configuramos el servidor OpenVPN el cual los clientes se conectarán. Para ello, vamos a VPN - OpenVPN - Servers y hacemos clic en Add. Rellenamos los siguientes campos:
 
 
 | opcion  | descripcion |
@@ -490,12 +490,12 @@ Guardamos la configuración y ya estaria listo.
 
 ![image](https://github.com/user-attachments/assets/d0bbe730-1bfd-476e-9499-6ed4e833d592)
 
-#### Verificar el servicio
-Para comprobar que todo esta funcionando, vamos a Status - Services, donde podremos revisar los servicios activos, incluidos los recién habilitados
+### Verificar el servicio
+- Para comprobar que todo esta funcionando, vamos a Status - Services, donde podremos revisar los servicios activos, incluidos los recién habilitados
 
 ![image](https://github.com/user-attachments/assets/dc9fc701-0a32-415a-b6a5-73d3ccf68543)
 
-#### Configuración de reglas en el firewall
+### Configuración de reglas en el firewall
 A continuación, debemos configurar una regla en el firewall para permitir el acceso a través del puerto de la VPN  Vamos a Firewall - Rules - WAN y hacemos clic en Add para crear la nueva regla.
 ![image](https://github.com/user-attachments/assets/5ca171b9-4ad3-42cc-b948-26f209f000f5)
 
@@ -514,10 +514,47 @@ A continuación, debemos configurar una regla en el firewall para permitir el ac
 
 ![image](https://github.com/user-attachments/assets/366275f5-5c44-496f-8c63-b4c23f6f3c4e)
 
-#### crear una regla para permitir todo el tráfico VPN
+### Crear una regla para permitir todo el tráfico VPN
 Ahora vamos a la pestaña de OpenVPN y creamos una regla para permitir todo el trafico entre clientes de la VPN. Seleccionamos todos los protocolos (ANY) y permitimos la comunicación entre cualquier origen y cualquier destino
 Guardamos la configuración y la regla quedará creada.
 ![image](https://github.com/user-attachments/assets/c719a238-5288-4566-9dff-55a2ea4677a6)
+
+### Exportar el archivo de configuracion para los clientes
+Para crear un cliente de la VPN, primero necesitamos generar un usuario. Nos dirigimos a System - User Manager y creamos un nuevo usuario. Al crear el usuario, seleccionamos la opción Click to create a user certificate para generar el certificado del cliente.
+
+![image](https://github.com/user-attachments/assets/bdc66a95-bb5d-4b6d-a0b9-27af3887b79c)
+
+
+- Una vez creado el usuario, vamos a VPN - OpenVPN - Client Export, donde veremos el usuario recién creado. Desde alli podremos exportar el archivo de configuracionn
+
+![image](https://github.com/user-attachments/assets/b09856b3-0798-4047-829a-3f403cd70378)
+
+
+### Comprobar estado del servicio y de los clientes conectados
+- Si queremos hacer una prueba  podemos descargar el certificado para Android o el de OpenVPN Connect (IOS/Android).
+- Lo descargamos desde el cliente y nos lo enviamos nosotros mismos por gmail
+- Cuando lo tengamos abriremos el archivo desde la aplicacion openVPN
+- Nos llevará a este apartado donde clicaremos a ADD para importar el pefil 
+ 
+![image](https://github.com/user-attachments/assets/4bc5f1d3-9bbb-4cc1-b963-4ef3439f9963)
+
+- Nos pedira que pongamos el usuario y contraseña
+- Y ya tendriamos el VPN activo como podemos ver
+
+![image](https://github.com/user-attachments/assets/3b655034-76d0-41c9-a709-5eedc412ce6b)
+
+Una vez conectados, podemos comprobar la conexion realizando pruebas, como acceder al firewall a través de un navegador para verificar que todo funciona correctamente
+- Vamos al navegador y escribimos la IP
+  
+![image](https://github.com/user-attachments/assets/cf5b8421-124c-4659-ba0c-9e6b4e45f6cd)
+
+Este proceso establece una conexión VPN básica. Para mejorar la configuración, podríamos proceder a realizar pruebas más avanzadas, como configurar el acceso de un usuario a un equipo de la red detrás del firewall.
+
+
+
+
+
+
 
 
 
