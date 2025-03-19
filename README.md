@@ -474,9 +474,12 @@ TrueNAS es necesario para que nosotros podamos a nivel de empresa guardar toda n
 
 |     Material      |   Componentes    |
 | :--- |     :---:        | 
-| Redes | adaptador puente |
-| Discos duros | Raid 1 |
+| nº maquinas | 2 maquinas iguales |
+| Redes | Red nat |
+| Discos duros | 2 Raid 1 y 2 discos para el arranque de ambas maquinas |
 | Memoria RAM | 4096 MB |
+| Ip | Maquina 1: 192.168.1.76 |
+       Maquina 2: 192.168.1.91 |
 
 
 
