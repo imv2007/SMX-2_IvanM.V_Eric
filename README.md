@@ -418,6 +418,7 @@ Abrimos el navegador y usamos la dirección IP del firewall de la LAN.
 Inicie sesión en el sistema con las credenciales predeterminadas de pfsense.
 
 ## OpenVPN en pfSense
+## OpenVPN en pfSense
 OpenVPN es una software libre que permite levantar una red privada virtual (VPN). Está basado en SSL/TLS, por lo tanto, permite crear certificados digitales de autenticación de clientes, así como autenticarnos con usuarios y contraseñas. 
 Todo el tráfico es cifrado sin importar si la red es cableada (Ethernet) o inalámbrica (802.11), con cifrado WEP/WPA/WPA2 o sin cifrar.
 
@@ -446,7 +447,77 @@ Una vez realizado los cambios y guardando nos aparece nuestro certificado:
 #### Crear el certificado para el servidor OpenVPN
 En la sección System - Certificates, seleccionamos Add Certificate para crear uno nuevo.
 
+| opcion  | descripcion |
+| ------------- | ------------- |
+| Method  | create an internal certificates  |
+| Descriptive name | OpenVPN_Certificates  |
+| Common Name | OpenVPN_Certificates  |
+| Certificate type | Server certificate   |
 
+Aquí nos tiene que aparecer nuestra CA previamente creada
+
+![image](https://github.com/user-attachments/assets/b56cb520-0d2e-4c8b-9f41-39fa09480a3a)
+
+#### Configuración del servidor OpenVPN
+
+Ahora, configuramos el servidor OpenVPN el cual los clientes se conectarán. Para ello, vamos a VPN - OpenVPN - Servers y hacemos clic en Add. Rellenamos los siguientes campos:
+
+
+| opcion  | descripcion |
+| ------------- | ------------- |
+| Description | OPENVPN_Server  |
+| Descriptive name | Remote Access (SSL/TLS + User Auth)  |
+| Protocol | UDP on IPv4 only   |
+| Interface | WAN   |
+| Puerto | 5194 (cambiamos el puerto por defecto)  |
+|Peer Certificate Authority | OpenVPN_CA (seleccionamos el nuestro) |
+| Server certificate | OPENVPN_Certificate (Server: Yes, CA: OPENVPN_CA)   |
+
+- En la sección de redes, seleccionamos la subred 10.4.44.0/24 (en este caso) para la conexión entre el cliente y pfSense. Además, configuramos las redes o IPs a las cuales los clientes tendrán acceso una vez conectados por VPN.
+
+- A continuación, activamos la opción Redirect IPv4 Gateway: Force all client-generated IPv4 traffic through the tunnel, para asegurar que todo el tráfico pase por la VPN.
+
+- También, podemos habilitar la opción Inter-client communication para permitir la comunicación entre clientes de la VPN y Duplicate connection para permitir múltiples conexiones del mismo cliente.
+  
+![image](https://github.com/user-attachments/assets/8a4fc4c4-b8a8-4c03-b1a8-375614afcc3d)
+
+podemos asignar los servidores DNS que los clientes utilizaran:
+
+- DNS Server 1: 1.1.1.1
+- DNS Server 2: 8.8.8.8
+  
+Guardamos la configuración y ya estaria listo.
+
+![image](https://github.com/user-attachments/assets/d0bbe730-1bfd-476e-9499-6ed4e833d592)
+
+#### Verificar el servicio
+Para comprobar que todo esta funcionando, vamos a Status - Services, donde podremos revisar los servicios activos, incluidos los recién habilitados
+
+![image](https://github.com/user-attachments/assets/dc9fc701-0a32-415a-b6a5-73d3ccf68543)
+
+#### Configuración de reglas en el firewall
+A continuación, debemos configurar una regla en el firewall para permitir el acceso a través del puerto de la VPN  Vamos a Firewall - Rules - WAN y hacemos clic en Add para crear la nueva regla.
+![image](https://github.com/user-attachments/assets/5ca171b9-4ad3-42cc-b948-26f209f000f5)
+
+| opcion  | descripcion |
+| ------------- | ------------- |
+| Action  | Pass  |
+| Interface | WAN |
+| Protocol | UDP  |
+|Source | Any   |
+| Destination | Any  |
+|Destination port range | 5194 |
+| Logs |Seleccionamos la opción de guardar |
+| Description |OPENVPN:RULE|
+
+- Una vez configurada  la regla deberia aparecer en la lista de reglas
+
+![image](https://github.com/user-attachments/assets/366275f5-5c44-496f-8c63-b4c23f6f3c4e)
+
+#### crear una regla para permitir todo el tráfico VPN
+Ahora vamos a la pestaña de OpenVPN y creamos una regla para permitir todo el trafico entre clientes de la VPN. Seleccionamos todos los protocolos (ANY) y permitimos la comunicación entre cualquier origen y cualquier destino
+Guardamos la configuración y la regla quedará creada.
+![image](https://github.com/user-attachments/assets/c719a238-5288-4566-9dff-55a2ea4677a6)
 
 
 
