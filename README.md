@@ -479,9 +479,9 @@ TrueNAS es necesario para que nosotros podamos a nivel de empresa guardar toda n
 | Discos duros | 2 Raid 1 y 2 discos para el arranque de ambas maquinas |
 | Memoria RAM | 4096 MB |
 | Ip | Maquina 1: 192.168.1.76 |
-       Maquina 2: 192.168.1.91 |
+| Ip | Maquina 2: 192.168.1.91 |
 
-
+#### Pasos a seguir
 
 ## PHP
 ![image](https://github.com/user-attachments/assets/758f7f47-003b-4967-92de-40d6166e02af)
