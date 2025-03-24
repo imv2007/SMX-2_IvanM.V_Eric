@@ -602,7 +602,7 @@ Abre la maquina que has creado, para poder instalar el truenas desde la maquina,
 Paso 4.
 Ahora clona la maquina para poder tener una maquina igual con la que poder comprobar la funcionalidad de esta misma con el servicio de rsync.
 
-
+Rsync module
 ## PHP
 ![image](https://github.com/user-attachments/assets/758f7f47-003b-4967-92de-40d6166e02af)
 
