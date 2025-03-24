@@ -590,6 +590,18 @@ TrueNAS es necesario para que nosotros podamos a nivel de empresa guardar toda n
 | Ip | Maquina 2: 192.168.1.91 |
 
 #### Pasos a seguir
+Paso 1.
+Instalas la iso de truenas que esta en esta web https://www.truenas.com/download-truenas-scale/, despues vas a virtualbox (con la iso instalada) y creas una maquina con freebsd 64 bits.
+
+Paso 2.
+Deberas de crear 2 discos vdi (con menos espacio que el primero que se crea por defecto), desde la configuracion en el apartado de almacenamiento, despues de esto vas al apartado de redes en la configuracion y pones una red nat (para comunicar con el resto de servidores) y un adaptador puente (para comunicar con el equipo real).
+
+Paso 3.
+Abre la maquina que has creado, para poder instalar el truenas desde la maquina, seleccionas la unidad de arranque, la contraseña y una vez hecho esto cierras la maquina, para poder quitarle la iso y asi ya poder acceder a la interfaz de truenas.
+
+Paso 4.
+Ahora clona la maquina para poder tener una maquina igual con la que poder comprobar la funcionalidad de esta misma con el servicio de rsync.
+
 
 ## PHP
 ![image](https://github.com/user-attachments/assets/758f7f47-003b-4967-92de-40d6166e02af)
