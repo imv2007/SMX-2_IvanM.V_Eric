@@ -603,9 +603,16 @@ Paso 4.
 Ahora clona la maquina para poder tener una maquina igual con la que poder comprobar la funcionalidad de esta misma con el servicio de rsync.
 
 Paso 5.
-Creacion de pool y dataset
-Creacion de usuario
-Servicios
+ Ahora cuando intentes acceder a la interfaz de truenas, para acceder tienes que poner la direccion ip del truenas (ojo, tiene que estar en la misma red), una vez entras tienes que poner como usuario "root" y la contraseña que hayas generado.
+ 
+Una vez en el truenas, buscas pools en storage, ahí te muestra una interfaz en donde puedes poner un nombre a la pool, en la parte del medio están los discos disponibles, dependiendo de cuantos tengas harás un raid 1 o un raid 5, y por la parte de abajo esta la capacidad estimada total de gigas que requiere para crear el pool.
+
+Ahora en el apartado de users en el truenas hay que darle al apartado de add, entonces podrás ver una interfaz donde puedes poner el nombre de usuario que quieras y poner los directorios a los que quieres dirigir tu usuario y sus permisos, Esto mismo nos servira para que cuando hagamos el rsync los archivos se dirijan hacia ese usuario en especifico.
+
+Despues configuraremos los servicios necesarios para poder hacer las copias de seguridad correspondientes
+SMB:
+SSH:
+RSYNC:
 
 Paso 6
 Rsync task
