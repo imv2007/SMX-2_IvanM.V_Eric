@@ -611,8 +611,11 @@ Ahora en el apartado de users en el truenas hay que darle al apartado de add, en
 
 Despues configuraremos los servicios necesarios para poder hacer las copias de seguridad correspondientes
 SMB:
+
 SSH:
+
 RSYNC:
+
 
 Paso 6
 Rsync task
