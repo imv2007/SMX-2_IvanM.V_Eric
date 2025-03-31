@@ -649,7 +649,7 @@ Entonces comenzamos con el cronjob:
 
 Para el cronjob en el truenas lo que hay que hacer es ir al apartado de tareas y darle a cronjob, una vez hecho esto os mostrara esto: 
 
-![image](https://github.com/user-attachments/assets/6829185b-0b5a-4e90-88a7-b363f909655e)
+![image](https://github.com/user-attachments/assets/ec759f9c-4d80-4fb8-80cd-f26012fc7e2c)
 
 Una vez aqui lo que hay que hacer es mostrale al cronjob la direccion de archivo (de los servidores a hacer copias) para que el truenas lo lea y pueda hacer copias a este mismo, despues poner el usuario indicado, y tambien el horario el cual pondremos cada semana los domingos, entones una vez hecho esto ya podremos hacer las copias des de cronjob.
 
