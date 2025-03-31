@@ -591,18 +591,23 @@ TrueNAS es necesario para que nosotros podamos a nivel de empresa guardar toda n
 
 #### Pasos a seguir
 Paso 1.
+
 Instalas la iso de truenas que esta en esta web https://www.truenas.com/download-truenas-scale/, despues vas a virtualbox (con la iso instalada) y creas una maquina con freebsd 64 bits.
 
 Paso 2.
+
 Deberas de crear 2 discos vdi (con menos espacio que el primero que se crea por defecto), desde la configuracion en el apartado de almacenamiento, despues de esto vas al apartado de redes en la configuracion y pones una red nat (para comunicar con el resto de servidores) y un adaptador puente (para comunicar con el equipo real).
 
 Paso 3.
+
 Abre la maquina que has creado, para poder instalar el truenas desde la maquina, seleccionas la unidad de arranque, la contraseña y una vez hecho esto cierras la maquina, para poder quitarle la iso y asi ya poder acceder a la interfaz de truenas.
 
 Paso 4.
+
 Ahora clona la maquina para poder tener una maquina igual con la que poder comprobar la funcionalidad de esta misma con el servicio de rsync.
 
 Paso 5.
+
  Ahora cuando intentes acceder a la interfaz de truenas, para acceder tienes que poner la direccion ip del truenas (ojo, tiene que estar en la misma red), una vez entras tienes que poner como usuario "root" y la contraseña que hayas generado.
  
 Una vez en el truenas, buscas pools en storage, ahí te muestra una interfaz en donde puedes poner un nombre a la pool, en la parte del medio están los discos disponibles, dependiendo de cuantos tengas harás un raid 1 o un raid 5, y por la parte de abajo esta la capacidad estimada total de gigas que requiere para crear el pool.
@@ -623,6 +628,7 @@ Para el Rsync lo que hay que hacer es, crear un rsync module, darle un nombre y 
 
 
 Paso 6
+
 Rsync task: Para hacer el rsync task, vas al apartado de tasks donde esta el rsync task y una vez le des tendras la opcion de poder crear un rsync task
 
 ![image](https://github.com/user-attachments/assets/f5c91820-7e47-4b0f-b0c4-3350e77ff351)
@@ -634,8 +640,9 @@ Para el remote host para que podamos comprobar que funciona el rsync task de mom
 
 
 Paso 7
-backup.sh
-cronjob
+
+cronjob:
+
 Ahora lo que haremos sera combrobar que todo esta correcto con el cronjob y el archivo backup.sh (archivo el cual sirve para dirijir la direccion de otro archivo a cronjob para hacer copias de seguridad).
 
 Entonces comenzamos con el cronjob:
@@ -645,6 +652,11 @@ Para el cronjob en el truenas lo que hay que hacer es ir al apartado de tareas y
 ![image](https://github.com/user-attachments/assets/6829185b-0b5a-4e90-88a7-b363f909655e)
 
 Una vez aqui lo que hay que hacer es mostrale al cronjob la direccion de archivo (de los servidores a hacer copias) para que el truenas lo lea y pueda hacer copias a este mismo, despues poner el usuario indicado, y tambien el horario el cual pondremos cada semana los domingos, entones una vez hecho esto ya podremos hacer las copias des de cronjob.
+
+backup.sh:
+
+Ahora por ultimo lo que haremos sera un backup.sh a cada maquina con la direccion de cada servicio que hemos hecho hasta ahora:
+
 
 
 ## PHP
