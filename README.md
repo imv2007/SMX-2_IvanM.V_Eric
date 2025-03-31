@@ -655,7 +655,15 @@ Una vez aqui lo que hay que hacer es mostrale al cronjob la direccion de archivo
 
 backup.sh:
 
-Ahora por ultimo lo que haremos sera un backup.sh a cada maquina con la direccion de cada servicio que hemos hecho hasta ahora:
+Ahora por ultimo lo que haremos sera un backup.sh a cada maquina con la direccion de cada servicio que hemos hecho hasta ahora, un ejemplo de un backup.sh de cualquier servidor seria:
+
+ECHO "INIT"
+
+rsync -avzh nine.conf erick@100.77.20.22: /home/nine.conf/destino/
+
+ECHO "FIN".
+
+Y asi habria que hacer con todos los servidores (aunque con archivos diferentes) para poder tener copias de seguridad completas de lo que tenemos de ahi, asi no lo perdemos.
 
 
 
