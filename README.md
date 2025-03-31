@@ -610,11 +610,16 @@ Una vez en el truenas, buscas pools en storage, ahí te muestra una interfaz en 
 Ahora en el apartado de users en el truenas hay que darle al apartado de add, entonces podrás ver una interfaz donde puedes poner el nombre de usuario que quieras y poner los directorios a los que quieres dirigir tu usuario y sus permisos, Esto mismo nos servira para que cuando hagamos el rsync los archivos se dirijan hacia ese usuario en especifico.
 
 Despues configuraremos los servicios necesarios para poder hacer las copias de seguridad correspondientes
-SMB:
 
-SSH:
+SMB: En el apartado de SMB lo que hay que editar es el "NetBIOS name" que es el nombre de la maquina virtual, y el "workgroup" que es el grupo que tu mismo creaste al hacer el usuario.
+
+SSH: En el ssh para poder usarlo hay que habilitar simplemente el TCP portforwarding para poder hacerlo funcionar, el login por root y la autentificacion de la contraseña ya estan habilitados por defecto.
 
 RSYNC:
+
+![image](https://github.com/user-attachments/assets/508cf5e6-f39f-42f6-aa60-28edd5ae7114)
+
+Para el Rsync lo que hay que hacer es, crear un rsync module, darle un nombre y direccion de archivos con el usuario ya creado, darle acceso de lectura y escritura, darle un numero maximo de conexiones y acceso al grupo y usuario donde quieres que se dirijan las copias de seguridad y con eso ya es suficiente
 
 
 Paso 6
