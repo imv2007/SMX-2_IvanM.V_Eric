@@ -623,7 +623,15 @@ Para el Rsync lo que hay que hacer es, crear un rsync module, darle un nombre y 
 
 
 Paso 6
-Rsync task
+Rsync task: Para hacer el rsync task, vas al apartado de tasks donde esta el rsync task y una vez le des tendras la opcion de poder crear un rsync task
+
+![image](https://github.com/user-attachments/assets/f5c91820-7e47-4b0f-b0c4-3350e77ff351)
+
+Una vez aqui habra que hacer lo siguiente:
+
+darle la misma direccion de archivos de usuario, pones el usuario correspondiente, en direction tienes la opcion de coger o dar archivos, en este caso como queremos dar archivos le damos a push, que es el equivalente a dar archivos, el horario en este caso ponemos que sea cada semana el domingo.
+Para el remote host para que podamos comprobar que funciona el rsync task de momento usamos como prueba otro truenas clonado identico, el rsync module del remote host tiene que ser el que hayamos creado en la otra maquina identica, y con esto solo quedaria comprobarlo y ya lo tendriamos.
+
 
 Paso 7
 backup.sh
