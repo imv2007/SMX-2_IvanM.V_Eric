@@ -666,10 +666,11 @@ ECHO "FIN".
 Y asi habria que hacer con todos los servidores (aunque con archivos diferentes) para poder tener copias de seguridad completas de lo que tenemos de ahi, asi no lo perdemos.
 
 
+## Mockup y mapa del sitio
+
 
 ## PHP
 ![image](https://github.com/user-attachments/assets/758f7f47-003b-4967-92de-40d6166e02af)
-
 # Diario semanal 📆
 
 
