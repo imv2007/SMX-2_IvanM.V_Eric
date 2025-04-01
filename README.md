@@ -668,7 +668,7 @@ Y asi habria que hacer con todos los servidores (aunque con archivos diferentes)
 
 ## Mockup y mapa del sitio
 
-Estas son las capturas de las paginas principales
+Este es nuestro mockup de como sera nuestra pagina web 
 
 
 ![image](https://github.com/user-attachments/assets/0b86f365-2191-478f-b126-ca625a3d88c5)
