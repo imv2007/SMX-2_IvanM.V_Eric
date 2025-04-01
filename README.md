@@ -668,6 +668,17 @@ Y asi habria que hacer con todos los servidores (aunque con archivos diferentes)
 
 ## Mockup y mapa del sitio
 
+Estas son las capturas de las paginas principales
+
+
+![image](https://github.com/user-attachments/assets/0b86f365-2191-478f-b126-ca625a3d88c5)
+
+![image](https://github.com/user-attachments/assets/411ad80d-bb44-40fd-a6b2-be592b91a02e)
+
+![image](https://github.com/user-attachments/assets/cf66201e-6b02-4f43-a450-d5cd71020b75)
+
+![image](https://github.com/user-attachments/assets/57e047a9-b10b-45b6-b356-6f4eb6680b3c)
+
 
 ## PHP
 ![image](https://github.com/user-attachments/assets/758f7f47-003b-4967-92de-40d6166e02af)
