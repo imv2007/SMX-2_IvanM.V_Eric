@@ -679,6 +679,12 @@ Este es nuestro mockup de como sera nuestra pagina web
 
 ![image](https://github.com/user-attachments/assets/57e047a9-b10b-45b6-b356-6f4eb6680b3c)
 
+### Mapa del sitio
+
+![image](https://github.com/user-attachments/assets/68a9321c-dca4-4c3a-b092-4b54102b4b9b)
+
+
+
 
 ## PHP
 ![image](https://github.com/user-attachments/assets/758f7f47-003b-4967-92de-40d6166e02af)
