@@ -1,5 +1,6 @@
 # PROYECTO SINTESI IVAN Y ERIC
 
+![image](https://github.com/user-attachments/assets/c45d1522-5a13-436a-a862-d847fc3b637c)
 
 ![image](https://github.com/user-attachments/assets/bfd4d821-666a-49aa-8a1b-cdbe692bbb5d)
 
