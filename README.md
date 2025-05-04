@@ -686,6 +686,24 @@ Este es nuestro mockup de como sera nuestra pagina web
 ![image](https://github.com/user-attachments/assets/7ca5bfb0-d477-4070-be9d-702c11ee5ea6)
 
 
+# 🛒 Mi Tienda Online
+
+Este es un proyecto web de una tienda online desarrollado con **HTML** y **CSS puro**, El objetivo es practicar
+
+## 🌐 Descripción
+
+**Mi Tienda Online** es una 
+
+## 🧰 Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- Flexbox y CSS Grid
+- Media Queries (para diseño responsivo)
+
+## 📁 Estructura del proyecto
+
+
 
 
 
