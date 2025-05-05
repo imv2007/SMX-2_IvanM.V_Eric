@@ -104,7 +104,9 @@ El segundo server es es el de truenas, este servidor nos servira en el futuro pa
 El tercer server es el de apache, este server nos servira para poder almacenar nuestro contenido html que hagamos en el futuro.
 El cuarto server y ultimo sera el de MySQL, Este server nos servira para poder tener bases de datos en nuestra pagina web
 
-![image](https://github.com/user-attachments/assets/42e7eaad-e452-447a-95de-e87dad336c20)
+![image](https://github.com/user-attachments/assets/6396137a-5d39-4398-a0b9-516ccf5835b8)
+
+
 
 
 
