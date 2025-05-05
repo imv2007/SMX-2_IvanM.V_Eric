@@ -688,28 +688,32 @@ Este es nuestro mockup de como sera nuestra pagina web
 ![image](https://github.com/user-attachments/assets/7ca5bfb0-d477-4070-be9d-702c11ee5ea6)
 
 
-# 🛒 Mi Tienda Online
+# 🛍️ Tienda Online – Nine studios
 
-Este es un proyecto web de una tienda online desarrollado con **HTML** y **CSS puro**, El objetivo es practicar
+Este módulo forma parte de nuestro trabajo de síntesis y consiste en una tienda online funcional desarrollada con HTML y CSS, con integración a una base de datos para la gestión de productos y usuarios
 
-## 🌐 Descripción
+## 🧰 Tecnologías Utilizadas
 
-**Mi Tienda Online** es una 
+- **HTML** y **CSS**: Para la estructura y el diseño de la interfaz.
+- **JavaScript**:
+- **PHP**:
+- **Base de Datos**: MySQL para almacenar información de productos y usuarios.
 
-## 🧰 Tecnologías utilizadas
+## 🛠️ Proceso de Desarrollo
 
-- HTML5
-- CSS3
-- Flexbox y CSS Grid
-- Media Queries (para diseño responsivo)
+1. **Diseño de la Interfaz**: Hemos creado una estructura HTML  que incluye páginas para la visualización de productos, detalles individuales, carrito de compras y formularios de contacto. Se aplicaron estilos CSS para hacer un diseño mas atractivo y  visitable.
 
-## 📁 Estructura del proyecto
+2. **Estructura de la Base de Datos**: Se diseñó una base de datos relacional con las siguientes tablas principales:
+   - `Registro`: Contiene los datos de los usuarios registrados.
+   - `Login`: contiene los datos de los usuarioas ya registrados.
+    
+
+3. **Pruebas y Validación**: Esta en proceso para realizar pruebas y comprobar si funciona
+
+## 📁 Estructura del Proyecto
 
 
 
-
-
-## PHP
 ![image](https://github.com/user-attachments/assets/758f7f47-003b-4967-92de-40d6166e02af)
 # Diario semanal 📆
 
