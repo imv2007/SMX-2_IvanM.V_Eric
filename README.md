@@ -483,8 +483,6 @@ Aquí nos tiene que aparecer nuestra CA previamente creada
 
 - También, podemos habilitar la opción Inter-client communication para permitir la comunicación entre clientes de la VPN y Duplicate connection para permitir múltiples conexiones del mismo cliente.
   
-![image](https://github.com/user-attachments/assets/8a4fc4c4-b8a8-4c03-b1a8-375614afcc3d)
-
 podemos asignar los servidores DNS que los clientes utilizaran:
 
 - DNS Server 1: 1.1.1.1
