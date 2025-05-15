@@ -377,8 +377,6 @@ Luego de asignar, al final  haremos click en "Finalizar"
 ![image](https://github.com/user-attachments/assets/0fefe6d2-580c-4188-a292-25a2f498ff49)
 
 - iniciamos la máquina virtual  y procederemos a instalar pfsense.
-  
-![image](https://github.com/user-attachments/assets/77258cd9-ac39-4085-b2fd-0bec1e11eb3b)
 
 - clicamos en instalar pfsense
   
@@ -402,7 +400,6 @@ Luego de asignar, al final  haremos click en "Finalizar"
 - cuando este listo aceptamos y reiniciamos el sistema
 ![image](https://github.com/user-attachments/assets/5f6cf4dc-ff69-4337-b895-52b154042822)
 
-![image](https://github.com/user-attachments/assets/ec5f7c21-38dc-46a9-b749-4a965b4c53a8)
 
 - Después de reiniciar, es importante eliminar la imagen adjunta, ya que revierte el proceso de instalación y vuelve a generar la misma pregunta. Por lo tanto, lo que haremos primero es apagar la amquina virtual, y vamos a la configuracion , y eliminamos  la imagen ISO 
 luego la volvemos a iniciar.
