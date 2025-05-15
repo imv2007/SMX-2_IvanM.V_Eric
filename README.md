@@ -384,16 +384,9 @@ Luego de asignar, al final  haremos click en "Finalizar"
 
 - Configurando la configuración de red. Haga clic en ok y continamos
 ![image](https://github.com/user-attachments/assets/042d6f56-b8a0-451e-bc31-29cb6c489795)
-- Hacemos clic en Instalar CE
 
-![image](https://github.com/user-attachments/assets/00e034e2-f977-4457-978b-ba018a2cc43c)
-
-
-- Seleccionamos el disco para la instalación.
-![image](https://github.com/user-attachments/assets/40434bdc-264a-4fdd-8bba-0101135ec94c)
 
 - Seleccionamos la versión actual de pfSense CE, luego haremos clic en Aceptar y contiuar
-![image](https://github.com/user-attachments/assets/fbc2aa27-3a56-4be5-afa0-12ffeb86373a)
 
 - Este proceso de instalación tardará un tiempo.
 
