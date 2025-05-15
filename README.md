@@ -689,6 +689,8 @@ Este es nuestro mockup de como sera nuestra pagina web
 # 🛍️ Tienda Online – Nine studios
 
 Este módulo forma parte de nuestro trabajo de síntesis y consiste en una tienda online funcional desarrollada con HTML y CSS, con integración a una base de datos para la gestión de productos y usuarios
+![image](https://github.com/user-attachments/assets/956feb50-e78a-404a-b74d-008d7faf4231)
+
 
 ## 🧰 Tecnologías Utilizadas
 
