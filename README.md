@@ -354,6 +354,27 @@ ofrece muchas funcionalidades avanzadas para gestionar y proteger redes, lo cual
 #### Recomendacion personal
 
 #### Detalles de la MV
+ISO de pfsense
+
+https://www.pfsense.org/download/
+
+Disco Duro: 10 GB mínimo
+
+Sistema base: BSD / FreeBSD (64-bit)
+
+RAM: 2048 MB
+
+red 1: Modo puente (WAN)
+
+red 2: Adaptador interno o red host-only (LAN)
+________________________________________
+
+####¿Por qué es necesario?
+Seguridad: pfSense ofrece un firewall libre de uso y gratis.
+Control total: Posibilidad de hacer portforward, y QoS.
+VPN: Soporta OpenVPN, para conexiones seguras remotas.
+Ahorro: No requiere de un buen hardware para poder utilizarse 
+
 
 #### Pasos a seguir
 Necesitramos una imagen ISO para la máquina virtual. La imagen ISO de pfSense se puede descargar desde la página oficial: https://www.pfsense.org/download/
