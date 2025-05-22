@@ -648,33 +648,74 @@ Este es nuestro mockup de como sera nuestra pagina web
 
 ![image](https://github.com/user-attachments/assets/7ca5bfb0-d477-4070-be9d-702c11ee5ea6)
 
+# HTML y CSS
 
-# 🛍️ Tienda Online – Nine studios
+¿Qué es HTML y CSS?
+HTML: Es el lenguaje de marcado que estructura el contenido de las páginas web. Define elementos como títulos, párrafos, enlaces, imágenes, formularios, etc.
+CSS: Es el lenguaje usado para estilizar el contenido HTML. Controla colores, fuentes, tamaños, diseño, y comportamiento visual de los elementos.
+Ambos son la base de todo sitio web, junto con JavaScript.
 
-Este módulo forma parte de nuestro trabajo de síntesis y consiste en una tienda online funcional desarrollada con HTML y CSS, con integración a una base de datos para la gestión de productos y usuarios
-![image](https://github.com/user-attachments/assets/956feb50-e78a-404a-b74d-008d7faf4231)
+Detalles del Entorno de Desarrollo
+Requisitos mínimos:
+Apache2: para alojar la web en el futuro
+Editor de código: Visual Studio Code
+Navegador: Google Chrome, para probar la web des de ahi.
+Sistemas operativos que vamos a usar: Windows y Linux, windows para entorno real y para entorno de apache usaremos linux.
+
+¿Por qué es necesario aprender HTML y CSS?
+HTML y CSS son necesarios porque son el estándar para crear sitios web, al igual imprescindibles para cualquier desarrollo web, tambien Permiten crear interfaces visualmente bonitas, responsables y accesibles.
 
 
-## 🧰 Tecnologías Utilizadas
+¿Dónde hay información oficial?
+https://www.w3schools.com/
+https://html.spec.whatwg.org/
 
-- **HTML** y **CSS**: Para la estructura y el diseño de la interfaz.
-- **JavaScript**:
-- **PHP**:
-- **Base de Datos**: MySQL para almacenar información de productos y usuarios.
+Pasos para instalar y comenzar a usar HTML y CSS
+1. Instalar Visual studio core
+Descarga desde: https://code.visualstudio.com
+se Instala como cualquier otro programa
+2. Crear tu primer proyecto web
+Crea una carpeta (por ejemplo: mi-sitio-web)
+Ábrela con VS Code
+Dentro, crea un archivo index.html y uno style.css
+3. Código básico de ejemplo
 
-## 🛠️ Proceso de Desarrollo
+#### html
 
-1. **Diseño de la Interfaz**: Hemos creado una estructura HTML  que incluye páginas para la visualización de productos, detalles individuales, carrito de compras y formularios de contacto. Se aplicaron estilos CSS para hacer un diseño mas atractivo y  visitable.
+CopiarEditar
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi primera web</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>¡Hola mundo!</h1>
+  <p>Este es mi primer sitio web con HTML y CSS.</p>
+</body>
+</html>
 
-2. **Estructura de la Base de Datos**: Se diseñó una base de datos relacional con las siguientes tablas principales:
-   - `Registro`: Contiene los datos de los usuarios registrados.
-   - `Login`: contiene los datos de los usuarioas ya registrados.
-    
+#### css
 
-3. **Pruebas y Validación**: Esta en proceso para realizar pruebas y comprobar si funciona
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+}
 
-## 📁 Estructura del Proyecto
+h1 {
+  color: #007bff;
+}
 
+p {
+  color: #333;
+}
+
+4. Ver tu sitio en el navegador
+Des del visual studio hay una opcion que se llama run, en esta misma puedes abrir debuggeando o sin debuggear, recomiendo usar la primera opcion. Esto nos ayudara para saber si la pagina esta bien hecha o no.
 
 
 ![image](https://github.com/user-attachments/assets/758f7f47-003b-4967-92de-40d6166e02af)
