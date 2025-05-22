@@ -333,18 +333,12 @@ pf Sense Se basa en el sistema operatibo  FreeBSD, conocido por su seguridad y e
 >
 >Enrutamiento: Funciones avanzadas para conectar redes.
 >
->VPN: Soporta OpenVPN, IPSec, PPTP, entre otros.
->
->Proxy y filtrado web: Control y supervisión de acceso a Internet 
->
->Balanceo de carga y redundancia: Distribuye el tráfico y asegura redundancia en conexiones.
->
->Seguridad: IPS, filtrado de contenido, protección contra ataques DoS.
+>VPN: Soporta OpenVPN, entre otros.
 >
 >Interfaz gráfica: Web intuitiva para gestión y configuración.
 >
 #### ¿Por qué es necesario?
-ofrece muchas funcionalidades avanzadas para gestionar y proteger redes, lo cual puede ser útil para nuestra tienda de ropa.
+ofrece muchas funcionalidades avanzadas para gestionar y proteger redes, lo cual puede ser útil para nuestra tienda de ropa, tambien porque pfSense te da un firewall libre de uso y gratis.
 #### ¿Dónde hay información oficial?
 >
 > https://www.pfsense.org/
@@ -369,45 +363,19 @@ red 1: Modo puente (WAN)
 red 2: Adaptador interno o red host-only (LAN)
 ________________________________________
 
-####¿Por qué es necesario?
-Seguridad: pfSense ofrece un firewall libre de uso y gratis.
-Control total: Posibilidad de hacer portforward, y QoS.
-VPN: Soporta OpenVPN, para conexiones seguras remotas.
-Ahorro: No requiere de un buen hardware para poder utilizarse 
-
 
 #### Pasos a seguir
 Necesitramos una imagen ISO para la máquina virtual. La imagen ISO de pfSense se puede descargar desde la página oficial: https://www.pfsense.org/download/
-- Seleccionaremos AMD64 ISO.
-![image](https://github.com/user-attachments/assets/384da588-b892-494c-883b-e1caa2c6119c)
-- Cuando se complete la descarga, abriremos la maquina virtual y haremos clic en nuevo
-- Asignaremos un nombre para la máquina virtual, y pondremos la imagen ISO que descargamos, el tipo pondremos BSD y la versión FreeBSD de 64 bits.
-- la asignación de recursos, como la memoria base y el disco duro, debe hacerse según los requisitos.
-Luego de asignar, al final  haremos click en "Finalizar"
 
-![image](https://github.com/user-attachments/assets/126769ed-32d1-431a-9f48-0a2e76d2595d)
+- Cuando se haga la descarga, Y configuramos la red. 
 
-
-![image](https://github.com/user-attachments/assets/45a17fde-23fb-4029-9aa6-fc94a1cbdda8)
-
-- cuando le demos a finalizar le  hacemos clic en Configuración. 
 - La configuración de red es importante para el firewall. Seleccionaremos la red y habilitaremos los adaptadores 1 y 2. Configurando el adaptador 1 en adaptodr puente . y el adaptador 2 en red nat.
-  
-![image](https://github.com/user-attachments/assets/b2543bb7-8814-4a7d-b11b-0be4044b6bde)
-
-![image](https://github.com/user-attachments/assets/0fefe6d2-580c-4188-a292-25a2f498ff49)
 
 - iniciamos la máquina virtual  y procederemos a instalar pfsense.
 
-- clicamos en instalar pfsense
-  
-![image](https://github.com/user-attachments/assets/271e62a3-45a6-4258-83af-7d3717638287)
+- le damos a instalar pfsense
 
-- Configurando la configuración de red. Haga clic en ok y continamos
-![image](https://github.com/user-attachments/assets/042d6f56-b8a0-451e-bc31-29cb6c489795)
-
-
-- Seleccionamos la versión actual de pfSense CE, luego haremos clic en Aceptar y contiuar
+- Seleccionamos la primera interfaz de la wan
 
 - Este proceso de instalación tardará un tiempo.
 
@@ -415,12 +383,9 @@ Luego de asignar, al final  haremos click en "Finalizar"
 ![image](https://github.com/user-attachments/assets/5f6cf4dc-ff69-4337-b895-52b154042822)
 
 
-- Después de reiniciar, es importante eliminar la imagen adjunta, ya que revierte el proceso de instalación y vuelve a generar la misma pregunta. Por lo tanto, lo que haremos primero es apagar la amquina virtual, y vamos a la configuracion , y eliminamos  la imagen ISO 
-luego la volvemos a iniciar.
+- Después de reiniciar, es importante eliminar la iso, ya que si no lo haces el proceso de instalación y vuelve a generarse. Por lo tanto, lo que haremos primero es apagar la amquina virtual, y vamos a la configuracion , y eliminamos la ISO, luego la volvemos a iniciar.
 
-- Reiniciamos la máquina virtual.
-
-- Y ya estaria listo, La IP está configurada.
+- Y ya estaria lista la interfaz principal de pfsense.
  ![image](https://github.com/user-attachments/assets/aebdb669-af17-4c7e-9dac-fcb67c68f84c)
 
 - Ahora, accederemos a la máquina Ubuntu y realizaremos el resto de la configuración.
@@ -430,23 +395,23 @@ luego la volvemos a iniciar.
 nos aseguramos de que el adaptador del Ubuntu 1 esté conectado a la red interna.
 Verificamos la dirección IP con el comando *ip a*
 Abrimos el navegador y usamos la dirección IP del firewall de la LAN.
-Inicie sesión en el sistema con las credenciales predeterminadas de pfsense.
+Inicie sesión en el sistema con el usuario por defecto de pfsense.
 
 ## OpenVPN en pfSense
 
-OpenVPN es una software libre que permite levantar una red privada virtual (VPN). Está basado en SSL/TLS, por lo tanto, permite crear certificados digitales de autenticación de clientes, así como autenticarnos con usuarios y contraseñas. 
-Todo el tráfico es cifrado sin importar si la red es cableada (Ethernet) o inalámbrica (802.11), con cifrado WEP/WPA/WPA2 o sin cifrar.
+OpenVPN es una software libre que permite levantar una VPN. este mismo permite crear certificados digitales de autenticación de clientes, así como autenticarnos con usuarios y contraseñas. 
+Todo el tráfico es cifrado sin importar si la red es por cable o inalámbrica.
 
 - Instalar el plugin OpenVPN client
 Lo primero es descargar el paquete openvpn-client-export y para ello vamos a System - Package Manager - Available Packages y buscamos el paquete openvpn-client-export y pulsamos en Install.
 
-![image](https://github.com/user-attachments/assets/d361c2d4-f9fa-4471-931f-0b9cadf2e76a)
+
 
 
 ### Crear la Autoridad Certificadora 
-Una CA (Autoridad de Certificación) es una entidad confiable que se encarga de emitir y gestionar certificados digitales necesarios para realizar transacciones seguras y firmas electrónicas
+Una CA es una entidad confiable que se encarga de emitir y gestionar certificados digitales necesarios para realizar transacciones seguras y firmas electrónicas
 Accedemos a la interfaz de pfSense y vamos a System - Certificate Manager, luego hacemos clic en Add.
-Generamos el certificado dejando las configuraciones predeterminadas, pero asignando un nombre distintivo.
+Generamos el certificado dejando las configuraciones predeterminadas, pero asignando un nombre que pueda diferenciarse.
 
 - Creamos el certificado manteniendo casi todas las opciones por defecto y asignando un nombre.
   
@@ -456,8 +421,8 @@ Generamos el certificado dejando las configuraciones predeterminadas, pero asign
 | Common name | OpenVPN_CA  |
 
 
-Una vez realizado los cambios y guardando nos aparece nuestro certificado:
-![image](https://github.com/user-attachments/assets/675148c9-498e-44eb-a13f-ddc4e96b24b6)
+Una vez realizado los cambios y guardando nos aparecera nuestro certificado ya hecho.
+
 
 ### Crear el certificado para el servidor OpenVPN
 En la sección System - Certificates, seleccionamos Add Certificate para crear uno nuevo.
@@ -469,9 +434,8 @@ En la sección System - Certificates, seleccionamos Add Certificate para crear u
 | Common Name | OpenVPN_Certificates  |
 | Certificate type | Server certificate   |
 
-Aquí nos tiene que aparecer nuestra CA previamente creada
+Aquí nos tiene que aparecer nuestra CA ya creada
 
-![image](https://github.com/user-attachments/assets/b56cb520-0d2e-4c8b-9f41-39fa09480a3a)
 
 ### Configuración del servidor OpenVPN
 
@@ -501,8 +465,6 @@ podemos asignar los servidores DNS que los clientes utilizaran:
   
 Guardamos la configuración y ya estaria listo.
 
-![image](https://github.com/user-attachments/assets/d0bbe730-1bfd-476e-9499-6ed4e833d592)
-
 ### Verificar el servicio
 - Para comprobar que todo esta funcionando, vamos a Status - Services, donde podremos revisar los servicios activos, incluidos los recién habilitados
 
@@ -510,6 +472,7 @@ Guardamos la configuración y ya estaria listo.
 
 ### Configuración de reglas en el firewall
 A continuación, debemos configurar una regla en el firewall para permitir el acceso a través del puerto de la VPN  Vamos a Firewall - Rules - WAN y hacemos clic en Add para crear la nueva regla.
+
 ![image](https://github.com/user-attachments/assets/5ca171b9-4ad3-42cc-b948-26f209f000f5)
 
 | opcion  | descripcion |
@@ -523,45 +486,34 @@ A continuación, debemos configurar una regla en el firewall para permitir el ac
 | Logs |Seleccionamos la opción de guardar |
 | Description |OPENVPN:RULE|
 
-- Una vez configurada  la regla deberia aparecer en la lista de reglas
+- Una vez configurada  la regla deberia aparecer en la lista de reglas.
 
-![image](https://github.com/user-attachments/assets/366275f5-5c44-496f-8c63-b4c23f6f3c4e)
 
 ### Crear una regla para permitir todo el tráfico VPN
 Ahora vamos a la pestaña de OpenVPN y creamos una regla para permitir todo el trafico entre clientes de la VPN. Seleccionamos todos los protocolos (ANY) y permitimos la comunicación entre cualquier origen y cualquier destino
 Guardamos la configuración y la regla quedará creada.
-![image](https://github.com/user-attachments/assets/c719a238-5288-4566-9dff-55a2ea4677a6)
 
 ### Exportar el archivo de configuracion para los clientes
 Para crear un cliente de la VPN, primero necesitamos generar un usuario. Nos dirigimos a System - User Manager y creamos un nuevo usuario. Al crear el usuario, seleccionamos la opción Click to create a user certificate para generar el certificado del cliente.
 
-![image](https://github.com/user-attachments/assets/bdc66a95-bb5d-4b6d-a0b9-27af3887b79c)
 
-
-- Una vez creado el usuario, vamos a VPN - OpenVPN - Client Export, donde veremos el usuario recién creado. Desde alli podremos exportar el archivo de configuracionn
+- Una vez creado el usuario, vamos a VPN - OpenVPN - Client Export, donde veremos el usuario recién creado. Desde alli podremos exportar el archivo de configuración.
 
 ![image](https://github.com/user-attachments/assets/b09856b3-0798-4047-829a-3f403cd70378)
 
 
 ### Comprobar estado del servicio y de los clientes conectados
-- Si queremos hacer una prueba  podemos descargar el certificado para Android o el de OpenVPN Connect (IOS/Android).
-- Lo descargamos desde el cliente y nos lo enviamos nosotros mismos por gmail
-- Cuando lo tengamos abriremos el archivo desde la aplicacion openVPN
-- Nos llevará a este apartado donde clicaremos a ADD para importar el pefil 
+- Si queremos hacer una prueba  podemos descargar el certificado para Android o el de OpenVPN for android y nos lo mandamos por correo electronico.
+- Cuando lo tengamos abriremos el archivo desde la aplicacion openVPN for andriod, y este Nos llevará a este apartado donde le daremos a ADD para importar el perfil. 
  
-![image](https://github.com/user-attachments/assets/4bc5f1d3-9bbb-4cc1-b963-4ef3439f9963)
-
-- Nos pedira que pongamos el usuario y contraseña
-- Y ya tendriamos el VPN activo como podemos ver
-
-![image](https://github.com/user-attachments/assets/3b655034-76d0-41c9-a709-5eedc412ce6b)
+- Nos pedira que pongamos el usuario y contraseña, Y ya tendriamos el VPN activo.
 
 Una vez conectados, podemos comprobar la conexion realizando pruebas, como acceder al firewall a través de un navegador para verificar que todo funciona correctamente
 - Vamos al navegador y escribimos la IP
   
 ![image](https://github.com/user-attachments/assets/cf5b8421-124c-4659-ba0c-9e6b4e45f6cd)
 
-Ya podemos comprobar la conexión al firewall.  Claramente que nos falta mucho. Se trata de una conexión básica
+Ya podemos comprobar la conexión al firewall. Esto mismo nos permitira en un futuro buscar nuestra web en el telefono y poder verla desde ahi gracias a nuestro servidor pfsense.
 
 
 
