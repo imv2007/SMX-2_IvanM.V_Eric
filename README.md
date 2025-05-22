@@ -367,7 +367,7 @@ ________________________________________
 #### Pasos a seguir
 Necesitramos una imagen ISO para la máquina virtual. La imagen ISO de pfSense se puede descargar desde la página oficial: https://www.pfsense.org/download/
 
-- Cuando se haga la descarga, Y configuramos la red. 
+- Cuando se haga la descarga, configuramos la red. 
 
 - La configuración de red es importante para el firewall. Seleccionaremos la red y habilitaremos los adaptadores 1 y 2. Configurando el adaptador 1 en adaptodr puente . y el adaptador 2 en red nat.
 
