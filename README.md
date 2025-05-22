@@ -682,37 +682,13 @@ Dentro, crea un archivo index.html y uno style.css
 
 #### html
 
-CopiarEditar
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mi primera web</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <h1>¡Hola mundo!</h1>
-  <p>Este es mi primer sitio web con HTML y CSS.</p>
-</body>
-</html>
+
+![image](https://github.com/user-attachments/assets/fde6d3d9-604b-40b3-b268-3fdbe68f3534)
+
+
 
 #### css
 
-body {
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 40px;
-}
-
-h1 {
-  color: #007bff;
-}
-
-p {
-  color: #333;
-}
 
 4. Ver tu sitio en el navegador
 Des del visual studio hay una opcion que se llama run, en esta misma puedes abrir debuggeando o sin debuggear, recomiendo usar la primera opcion. Esto nos ayudara para saber si la pagina esta bien hecha o no.
