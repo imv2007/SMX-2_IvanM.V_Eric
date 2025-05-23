@@ -700,8 +700,63 @@ Des del visual studio hay una opcion que se llama run, en esta misma puedes abri
 Esto es lo que se muestra cuando un html y css se combinan para generar esta web.
 
 # PHP y MYSQL
+ #### ¿Qué es PHP?
+ 
+PHP es un lenguaje de programación del lado del servidor ampliamente utilizado para el desarrollo web. Permite generar contenido dinámico, interactuar con bases de datos y gestionar sesiones, entre otras funcionalidades. Es compatible con múltiples sistemas operativos y servidores web, siendo una herramienta esencial en el desarrollo de aplicaciones web.
+¿Qué es MYsql o maríadb?
+MariaDB es un sistema de gestión de bases de datos relacional (RDBMS), desarrollado como una bifurcación (fork) de MySQL por los desarrolladores originales de este, después de que MySQL fue adquirido por Oracle.
 
-![image](https://github.com/user-attachments/assets/758f7f47-003b-4967-92de-40d6166e02af)
+#### Requisitos mínimos:
+
+Sistema operativo: Debian 12  (https://www.debian.org/distrib/) Aquí la web para instalarlo
+Conexión a Internet: Necesaria para descargar paquetes
+Apache: Servidor web que maneja las solicitudes HTTP.
+MariaDB: Sistema de gestión de bases de datos relacional.
+PHP: Lenguaje de programación para generar contenido dinámico.
+
+#### ¿Por qué es necesario?
+
+PHP y MYSQL son necesarios porque estos mismos son los que permiten que mi login y mi register funcionen, sin estos dos solo estaría mostrando un html y un css bonitos, y no una pagina web funcional.
+ ¿Dónde hay información oficial?
+PHP: https://www.php.net/manual/es/install.unix.debian.php
+MariaDB: https://mariadb.org/download/
+Apache: https://httpd.apache.org/docs/
+Debian Wiki: https://wiki.debian.org/LaMptecmint.com
+
+ #### Pasos para instalar los servicios en Debian 12
+Actualizar el sistema con:   
+sudo apt update && sudo apt upgrade -y
+
+#### Instalar Apache
+
+sudo apt install apache2 -y
+Verifica que Apache esté funcionando accediendo a http://tu_direccion_ip o tu nombre de dominio.
+Después haz todo lo anterior de apache que ya explique.
+
+#### Instalar MariaDB
+
+Debian 12 incluye MariaDB en sus repositorios oficiales. Para poder instalarlo tienes que hacer lo siguiente
+sudo apt install mariadb-server -y
+sudo mysql_secure_installation
+Sigue las instrucciones para establecer una contraseña de root y asegurar el servidor.
+Después haces un sudo maríadb
+Creas un usuario con:
+CREATE USER 'nuevo_usuario'@'localhost' IDENTIFIED BY 'tu_contraseña_segura'; 
+y insertas la base de datos que hayas creado o tengas que crear y ya estaria.
+
+#### Instalar PHP y módulos necesarios
+Para instalar PHP y los módulos comunes:
+Sudo apt install php-mysql php-curl  php-gd php-mbstring  php-xml php-zip:
+sudo apt install php libapache2-mod-php php-mysql -y
+Verifica la versión de PHP instalada:
+php -v
+Después insertas tus php de login y register en la carpeta de tu web para que el login y registro de tu web funcione.
+
+#### Probar PHP con Apache
+Crea un archivo de prueba:
+echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/info.php
+Accede a http://tu_direccion_ip/info.php para ver la configuración de PHP.
+
 # Diario semanal 📆
 
 
