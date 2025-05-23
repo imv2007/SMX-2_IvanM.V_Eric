@@ -685,10 +685,12 @@ Dentro, crea un archivo index.html y uno style.css
 
 ![image](https://github.com/user-attachments/assets/fde6d3d9-604b-40b3-b268-3fdbe68f3534)
 
-
+Esto es el ejemplo basico de html el cual nos servira para construir nuestro cuerpo de la web
 
 #### css
+![image](https://github.com/user-attachments/assets/a0fa3e5b-bba2-46a8-9352-4cfef45ff244)
 
+Este otro es un ejemplo basico de decoracion de nuestro cuerpo web
 
 4. Ver tu sitio en el navegador
 Des del visual studio hay una opcion que se llama run, en esta misma puedes abrir debuggeando o sin debuggear, recomiendo usar la primera opcion. Esto nos ayudara para saber si la pagina esta bien hecha o no.
