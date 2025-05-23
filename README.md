@@ -695,6 +695,11 @@ Este otro es un ejemplo basico de decoracion de nuestro cuerpo web
 4. Ver tu sitio en el navegador
 Des del visual studio hay una opcion que se llama run, en esta misma puedes abrir debuggeando o sin debuggear, recomiendo usar la primera opcion. Esto nos ayudara para saber si la pagina esta bien hecha o no.
 
+![image](https://github.com/user-attachments/assets/6a0c2611-6b7f-4e84-8ff8-0e8218bcf529)
+
+Esto es lo que se muestra cuando un html y css se combinan para generar esta web.
+
+# PHP y MYSQL
 
 ![image](https://github.com/user-attachments/assets/758f7f47-003b-4967-92de-40d6166e02af)
 # Diario semanal 📆
